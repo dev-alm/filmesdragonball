@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.t-padrao {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: black;
+}
+a {
+  color: var(--texto);
+}
+
+.h1-medio {
+  font-size: 4rem;
+  color: var(--texto);
+  /* text-transform: uppercase; */
+  line-height: 76px;
+  font-family: "bebas-neue";
+}
+
+.h1-medio2 {
+  font-size: 5rem;
+  color: var(--texto);
+  text-transform: uppercase;
+  line-height: 80px;
+  letter-spacing: 3px;
+  font-family: "bebas-neue";
+}
+
+.h1-alto {
+  font-size: 6.3125rem;
+  color: var(--texto);
+  font-family: "bebas-neue";
+}
+
+h2,
+ul {
+  color: var(--texto);
+}
+
+p {
+  color: var(--texto3);
+}
+
+h2,
+p,
+ul,
+li {
+  font-family: "manrope", Arial, Helvetica, sans-serif;
+}
+
+.projetos a {
+  font-family: "manrope", Arial, Helvetica, sans-serif;
+}
+
+header a {
+  font-family: "inter", Arial, Helvetica, sans-serif;
+}
+
+.h2-form {
+  font-size: 0.5rem;
+}
+
+label {
+  color: white;
+}

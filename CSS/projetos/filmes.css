@@ -1,0 +1,39 @@
+.filme{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.capa-filme {
+    background-color: black;
+    width: 200px;
+    height: 270px;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.capa-filme a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.capa-filme img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  display: block;
+  transition: transform 0.3s ease;
+  /* filter: brightness(1.3); */
+}
+
+.capa-filme:hover img {
+  transform: scale(1.05); /* efeito de zoom suave ao passar o mouse */
+}

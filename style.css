@@ -1,0 +1,40 @@
+/*Tema*/
+@import url(./CSS/tema/tema.css);
+
+/*Reset*/
+@import url(./CSS/reset/reset.css);
+
+/*Utilidades*/
+@import url(./CSS/utilidades/tamanho-padrao.css);
+
+/*Fontes*/
+@import url(./fontes/fontes.css);
+
+/* Header */
+@import url(./CSS/header/header.css);
+
+/*Introdução*/
+@import url(./CSS/projetos/introducao.css);
+
+/*Projetos*/
+@import url(./CSS/projetos/projetos.css);
+@import url(./CSS/projetos/filmes.css);
+
+/*Sobre Mim*/
+@import url(./CSS/sobre-mim/sobre-imagem.css);
+@import url(./CSS/sobre-mim/sobre-mim.css);
+@import url(./CSS/sobre-mim/experiencia.css);
+
+/*Formulário*/
+@import url(./contato/formulario.css);
+
+/*Animação*/
+@import url(./CSS/animacao/animacao.css);
+
+
+
+https://www.linkedin.com/in/gustavo-almeida-390359266/   target="_blank"
+
+https://www.instagram.com/gustavo_almeida3
+
+https://github.com/dev-alm?tab=repositories

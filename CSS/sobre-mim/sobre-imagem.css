@@ -1,0 +1,136 @@
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  padding: 100px 20px 50px 20px;
+  border-bottom: 1px solid var(--borda);
+}
+.sobre-imagem {
+  padding-right: 30px;
+}
+
+.sobre-imagem img {
+  height: 100%;
+  object-fit: cover;
+  clip-path: circle(39% at 50% 50%);
+  position: relative;
+  bottom: 40px;
+  left: 40px;
+}
+
+.sobre-descricao {
+  display: grid;
+  gap: 10px;
+}
+
+.sobre-links {
+  display: flex;
+  align-items: center;
+  padding: 40px 0px 40px 0px;
+  gap: 20px;
+}
+
+ul .sobre-botao a {
+  display: flex;
+  gap: 20px;
+}
+
+ul .sobre-botao {
+  display: flex;
+  background-color: var(--borda);
+  padding: 15px 20px 15px 20px;
+  border: 1px solid var(--borda);
+  border-radius: 30px;
+  font-weight: 700;
+  gap: 20px;
+  position: relative;
+  top: -2px;
+}
+
+ul .sobre-botao a {
+  color: var(--texto2);
+}
+
+ul .sobre-botao:hover {
+  background-color: var(--cor-primaria-escura);
+}
+a:hover svg path {
+  fill: var(--cor-primaria-escura);
+}
+
+@media (max-width: 1000px) {
+  .sobre-descricao h1 {
+    font-size: 4rem;
+  }
+  .sobre-links a .ponto {
+    display: none;
+  }
+  .sobre-links a span {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 890px) {
+  ul .sobre-botao {
+    display: flex;
+    font-size: 0.875rem;
+    padding: 10px 15px 10px 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+    padding-top: 50px;
+  }
+  ul .sobre-botao {
+    padding: 10px 10px 10px 10px;
+  }
+  .sobre-links {
+    padding: 40px 0px 100px 0px;
+  }
+  .sobre-descricao {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+  .sobre-imagem img {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    clip-path: circle(34% at 50% 50%);
+    left: 0;
+  }
+  .sobre-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .sobre-descricao h1 {
+    font-size: 3rem;
+    line-height: 60px;
+  }
+}
+@media (max-width: 375px) {
+  .sobre-descricao h1 {
+    font-size: 2.5rem;
+  }
+  .sobre-links {
+    padding-bottom: 50px;
+  }
+  .sobre-imagem {
+    padding: 0;
+    height: 300px;
+    width: 375px;
+  }
+  .sobre-imagem img {
+    clip-path: circle(40% at 50% 50%);
+  }
+  .introducao {
+    padding-bottom: 0px;
+  }
+}
