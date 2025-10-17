@@ -219,6 +219,7 @@ li .projetos-fixo:after {
   .projetos-links {
     justify-content: center;
   }
+
 }
 
 @media (max-width: 600px) {
@@ -242,7 +243,16 @@ li .projetos-fixo:after {
   .projetos-links a {
     font-size: 0.85rem;
   }
+
 }
+
+@media (max-width: 420px) {
+  .introducao-itens .p-dragonballh1 {
+    font-size: 2rem;
+  }
+}
+
+
 
 @media (max-width: 400px) {
   .projetos {
@@ -257,6 +267,7 @@ li .projetos-fixo:after {
     font-size: 0.8rem;
   }
 }
+
 
 
 

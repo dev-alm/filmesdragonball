@@ -69,3 +69,27 @@ li .filmes-fixo:after {
   background-color: var(--texto);
   margin-top: 4px;
 }
+
+@media (max-width: 800px) {
+  li .filmes-fixo:after {
+    display: none;
+  }
+
+  li a {
+    font-size: 0.7rem;
+  }
+
+  .menu a {
+    padding: 4px 14px;
+    min-height: 0px;
+  }
+}
+@media (max-width: 325px) {
+  .introducao-itens .p-dragonballh1 {
+   font-size: 1.5rem; 
+  }
+
+  .introducao-itens p {
+   font-size: 0.9rem; 
+  }
+}
