@@ -37,3 +37,35 @@
 .capa-filme:hover img {
   transform: scale(1.05); /* efeito de zoom suave ao passar o mouse */
 }
+
+.menu a {
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.menu a:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0px;
+  border: solid 0px var(--texto2);
+  border-radius: 2px;
+  background-color: var(--texto);
+  margin-top: 4px;
+  transition: 0.3s;
+}
+
+.menu a:hover:after {
+  width: 100%;
+}
+
+/* -------- DETALHE FIXO -------- */
+li .filmes-fixo:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: var(--texto);
+  margin-top: 4px;
+}
