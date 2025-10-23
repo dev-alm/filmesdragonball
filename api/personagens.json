@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Goku",
+    "image": "/assets/personagens/goku.jpg",
+    "race": "Saiyan",
+    "transform": "ssj, ssj2, ssj3",
+    "ki": "9000",
+    "description": "Goku é um Saiyajin criado na Terra, sempre buscando se tornar mais forte."
+  },
+  {
+    "name": "Gohan Teen",
+    "image": "/assets/personagens/gohan.jpg",
+    "race": "Saiyan",
+    "ki": "8500",
+    "description": "Gohan é filho de Goku, possui grande poder e potencial adormecido."
+  },
+  {
+    "name": "Goten",
+    "image": "/assets/personagens/goten.jpg",
+    "race": "Saiyan",
+    "ki": "4000",
+    "description": "Goten é o filho mais novo de Goku, alegre e cheio de energia."
+  }
+]

@@ -1,0 +1,119 @@
+/* Container do card */
+.capa-filme {
+  width: 200px;
+  height: 270px;
+  perspective: 1000px; /* necessário para o 3D */
+  margin-bottom: 20px;
+}
+
+/* Conteúdo interno que gira */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+/* efeito de flip quando a classe 'flipped' está ativa */
+.flip-card-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+/* Frente e verso do card */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+/* Frente: apenas imagem */
+.flip-card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Verso: informações */
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "bebas-neue";
+  line-height: 1.5rem;
+}
+
+
+
+
+/* Nome do personagem */
+.flip-card-back .personagem-nome {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #FFD700; /* dourado */
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 0.3rem;
+}
+
+/* Raça */
+.flip-card-back .personagem-raca {
+  font-size: 0.9rem;
+  margin: 2px 0;
+  color: #00FFFF; /* ciano */
+}
+
+/* Ki */
+.flip-card-back .personagem-ki {
+  font-size: 0.9rem;
+  margin: 2px 0;
+  color: #FF4500; /* laranja forte */
+  font-weight: bold;
+}
+
+/* Descrição */
+.flip-card-back .personagem-descricao {
+  font-size: 0.8rem;
+  margin-top: 5px;
+  color: #FFFFFF; /* branco */
+  line-height: 1.2;
+}
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  li .filmes-fixo:after {
+    display: none;
+  }
+
+  li a {
+    font-size: 0.7rem;
+  }
+
+  .menu a {
+    padding: 4px 14px;
+    min-height: 0px;
+  }
+}
+@media (max-width: 325px) {
+  .introducao-itens .p-dragonballh1 {
+   font-size: 1.5rem; 
+  }
+
+  .introducao-itens p {
+   font-size: 0.9rem; 
+  }
+}

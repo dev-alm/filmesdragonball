@@ -70,6 +70,12 @@ li .filmes-fixo:after {
   margin-top: 4px;
 }
 
+
+
+
+
+
+
 @media (max-width: 800px) {
   li .filmes-fixo:after {
     display: none;
