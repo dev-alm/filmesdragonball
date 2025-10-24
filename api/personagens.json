@@ -2,8 +2,8 @@
   {
     "name": "Goku",
     "image": "/assets/personagens/goku.jpg",
-    "raca": "Saiyajin",
-    "transform": "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinct",
+    "race": "Saiyajin",
+    "transform": "ssj, ssj2, ssj3, god saiyan, ssj blue, Ultra Instinct",
     "melhor tecnica": "Genki Dama (Spirit Bomb)",
     "planetaNatal": "Planeta Vegeta (criado na Terra)",
     "descricao": "Kakarot, criado como Son Goku na Terra. Guerreiro incansável, sempre em busca de superar seus limites e proteger a Terra.",
@@ -12,7 +12,7 @@
   {
     "name": "Gohan",
     "image": "/assets/personagens/gohan.jpg",
-    "raca": "Híbrido Saiyajin (meio Saiyajin, filho de Goku)",
+    "race": "Híbrido Saiyajin (meio Saiyajin, filho de Goku)",
     "transform": "Super Saiyajin, Super Saiyajin 2, Ultimate/Beast Gohan (variações)",
     "melhor tecnica": "Masenko / Kamehameha (variações), e seu poder latente (Rage/Ultimate)",
     "planetaNatal": "Terra",
@@ -22,7 +22,7 @@
   {
     "name": "Goten",
     "image": "/assets/personagens/goten.jpg",
-    "raca": "Híbrido Saiyajin (filho de Goku)",
+    "race": "Híbrido Saiyajin (filho de Goku)",
     "transform": "Super Saiyajin",
     "melhor tecnica": "Kamehameha (aprendeu cedo) / Combina com Trunks (Gotenks)",
     "planetaNatal": "Terra",
