@@ -1,3 +1,10 @@
+.titulo-personagem {
+  font-size: 4rem;
+  color: var(--texto);
+  line-height: 76px;
+  font-family: "saiyan-l-oblique";
+}
+
 /* Container do card */
 .cards-container {
   display: grid;
@@ -13,7 +20,7 @@
   position: relative;
   width: 100%;      
   max-width: 270px;     
-  height: 360px;
+  height: 370px;
   perspective: 1000px;
   border: 2px solid var();
   border-radius: 10%;
@@ -72,6 +79,25 @@
   border-radius: 10%;
   overflow: hidden;
   z-index: 2;
+}
+
+.flip-card-back {
+  position: relative;
+  overflow: hidden; /* garante que o blur não vaze */
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/back-card/torneio-classico.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.flip-card-back::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* camada escura */
+  backdrop-filter: blur(8px);     /* efeito glass */
+  z-index: -1;
 }
 
 /* Imagem do card */

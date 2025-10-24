@@ -3,28 +3,28 @@
     "name": "Goku",
     "image": "/assets/personagens/goku.jpg",
     "race": "Saiyajin",
-    "transform": "ssj, ssj2, ssj3, god saiyan, ssj blue, Ultra Instinct",
+    "transform": "ssj, ssj2, ssj3, god saiyan, ssj blue, ssj blue kaioken, ultra instinct",
     "melhor tecnica": "Genki Dama (Spirit Bomb)",
-    "planetaNatal": "Planeta Vegeta (criado na Terra)",
+    "planetaNatal": "Sadala (criado na Terra)",
     "descricao": "Kakarot, criado como Son Goku na Terra. Guerreiro incansável, sempre em busca de superar seus limites e proteger a Terra.",
     "nomeJapones": "孫 悟空"
   },
   {
-    "name": "Gohan",
-    "image": "/assets/personagens/gohan.jpg",
-    "race": "Híbrido Saiyajin (meio Saiyajin, filho de Goku)",
-    "transform": "Super Saiyajin, Super Saiyajin 2, Ultimate/Beast Gohan (variações)",
-    "melhor tecnica": "Masenko / Kamehameha (variações), e seu poder latente (Rage/Ultimate)",
+    "name": "Teen Gohan",
+    "image": "/assets/personagens/gohan-teen.jpg",
+    "race": "Híbrido Saiyajin",
+    "transform": "ssj, ssj2",
+    "melhor tecnica": "Masenko",
     "planetaNatal": "Terra",
-    "descricao": "Filho mais velho de Goku; grande potencial latente que já salvou a Terra em diversas ocasiões.",
+    "descricao": "Gohan na adolescência, filho de Goku; demonstra grande potencial e coragem, já tendo salvado a Terra em momentos críticos.",
     "nomeJapones": "孫 悟飯"
   },
   {
     "name": "Goten",
     "image": "/assets/personagens/goten.jpg",
     "race": "Híbrido Saiyajin (filho de Goku)",
-    "transform": "Super Saiyajin",
-    "melhor tecnica": "Kamehameha (aprendeu cedo) / Combina com Trunks (Gotenks)",
+    "transform": "ssj",
+    "melhor tecnica": "Kamehameha",
     "planetaNatal": "Terra",
     "descricao": "Filho mais novo de Goku, muito semelhante ao pai quando criança; forma Gotenks ao fusionar com Trunks.",
     "nomeJapones": "孫 悟天"
@@ -35,8 +35,298 @@
     "race": "Saiyan",
     "transform": "ssj, ssj2, ssj3, god saiyan, ssj blue, ssj blue evolution, ultra ego",
     "melhor tecnica": "Final Flash",
-    "planetaNatal": "Planeta Vegeta",
+    "planetaNatal": "Sadala",
     "descricao": "Príncipe dos Saiyajins, orgulhoso e rival de Goku; torna-se aliado e protetor da Terra.",
     "nomeJapones": "ベジータ"
+  },
+  {
+    "name": "Gohan Adulto",
+    "image": "/assets/personagens/gohan-adulto.jpg",
+    "race": "Híbrido Saiyajin",
+    "transform": "ssj, ssj2, ultimate (mystic), bestial",
+    "melhor tecnica": "Masenko",
+    "planetaNatal": "Terra",
+    "descricao": "Gohan adulto, maduro e responsável; continua sendo um dos guerreiros mais poderosos da Terra e líder em batalhas importantes.",
+    "nomeJapones": "孫 悟飯"
+  },
+  {
+  "name": "Kid Trunks",
+  "image": "/assets/personagens/trunks-kid.jpg",
+  "race": "Híbrido Saiyajin",
+  "transform": "ssj",
+  "melhor tecnica": "Burning Attack",
+  "planetaNatal": "Terra",
+  "descricao": "Filho de Vegeta e Bulma na infância; curioso e determinado, treina com seu pai e participa de pequenas aventuras, ainda sem dominar totalmente suas habilidades.",
+  "nomeJapones": "トランクス"
+},
+  {
+    "name": "Future Trunks",
+    "image": "/assets/personagens/future-trunks.jpg",
+    "race": "Híbrido Saiyajin",
+    "transform": "ssj, ssj2, ssj rage",
+    "melhor tecnica": "Burning Attack",
+    "planetaNatal": "Terra (linha futura alternativa)",
+    "descricao": "Versão adulta de Trunks de uma linha temporal alternativa que luta contra androides e Zamasu/Future threats.",
+    "nomeJapones": "トランクス(未来)"
+  },
+  {
+    "name": "Goku Black",
+    "image": "/assets/personagens/goku-black.jpg",
+    "race": "Zamasu (immortal) em corpo de Saiyajin",
+    "transform": "ssj rose",
+    "melhor tecnica": "Black Kamehameha",
+    "planetaNatal": "Originalmente não-Saiyajin — corpo de Goku",
+    "descricao": "Zamasu que roubou o corpo de Goku via Super Dragon Balls; principal antagonista do arco 'Future Trunks' em Dragon Ball Super.",
+    "nomeJapones": "ゴクウブラック"
+  },
+  {
+    "name": "Raditz",
+    "image": "/assets/personagens/raditz.jpg",
+    "race": "Saiyajin",
+    "transform": "oozaru",
+    "melhor tecnica": "Double Sunday",
+    "planetaNatal": "Sadala",
+    "descricao": "Irmão mais velho de Goku; enviado para recrutar Goku e que desencadeia a saga Saiyajin.",
+    "nomeJapones": "ラディッツ"
+  },
+  {
+    "name": "Nappa",
+    "image": "/assets/personagens/nappa.jpg",
+    "race": "Saiyajin",
+    "transform": "oozaru",
+    "melhor tecnica": "Break Cannon",
+    "planetaNatal": "Sadala",
+    "descricao": "Parceiro de Vegeta na invasão à Terra; guerreiro bruto e poderoso do exército Saiyajin.",
+    "nomeJapones": "ナッパ"
+  },
+  {
+    "name": "King Vegeta",
+    "image": "/assets/personagens/king-vegeta.jpg",
+    "race": "Saiyajin",
+    "transform": "oozaru",
+    "melhor tecnica": "Ataques de ki padrão",
+    "planetaNatal": "Sadala",
+    "descricao": "Rei dos Saiyajins e pai de Vegeta; líder da nação Saiyajin antes da destruição pelo Freeza.",
+    "nomeJapones": "キングベジータ"
+  },
+  {
+    "name": "Bardock Z",
+    "image": "/assets/personagens/bardock-z.jpg",
+    "race": "Saiyajin",
+    "transform": "ssj",
+    "melhor tecnica": "Riot Javelin",
+    "planetaNatal": "Sadala",
+    "descricao": "Pai de Goku; líder de uma pequena equipe de soldados Saiyajins que realiza missões para a Frieza Force.",
+    "nomeJapones": "バーダック"
+  },
+  {
+    "name": "Bardock S",
+    "image": "/assets/personagens/bardock-s.jpg",
+    "race": "Saiyajin",
+    "transform": "ssj",
+    "melhor tecnica": "Riot Javelin",
+    "planetaNatal": "Sadala",
+    "descricao": "Pai de Goku; líder de uma pequena equipe de soldados Saiyajins que realiza missões para a Frieza Force.",
+    "nomeJapones": "バーダック"
+  },
+  {
+    "name": "Tora",
+    "image": "/assets/personagens/tora.jpg",
+    "race": "Saiyajin",
+    "transform": "oozaru",
+    "melhor tecnica": "Técnicas de soldado Saiyajin",
+    "planetaNatal": "Sadala",
+    "descricao": "Membro da equipe de Bardock.",
+    "nomeJapones": "トラ"
+  },
+  {
+    "name": "Fasha",
+    "image": "/assets/personagens/fasha.jpg",
+    "race": "Saiyajin",
+    "transform": "oozaru",
+    "melhor tecnica": "Técnicas de combate corpo-a-corpo",
+    "planetaNatal": "Sadala",
+    "descricao": "Única mulher visível na equipe original de Bardock no especial OVA/anime; guerreira habilidosa.",
+    "nomeJapones": "ファーシャ"
+  },
+  {
+    "name": "Shugesh",
+    "image": "/assets/personagens/shugesh.jpg",
+    "race": "Saiyajin",
+    "transform": "oozaru",
+    "melhor tecnica": "Técnicas de soldado Saiyajin",
+    "planetaNatal": "Sadala",
+    "descricao": "Membro da equipe de Bardock (aparece no especial e em canons estendidos).",
+    "nomeJapones": "シュゲッシュ"
+  },
+  {
+    "name": "Borgos",
+    "image": "/assets/personagens/borgos.jpg",
+    "race": "Saiyajin",
+    "transform": "oozaru",
+    "melhor tecnica": "Técnicas de batalha padrão",
+    "planetaNatal": "Sadala",
+    "descricao": "Membro da equipe de Bardock; aparece em especiais e em materiais suplementares e jogos.",
+    "nomeJapones": "ボルゴス"
+  },
+  {
+  "name": "Broly Z",
+  "image": "/assets/personagens/broly-z.jpg",
+  "race": "Saiyajin (Legendary)",
+  "transform": "ssj, ssj legendary, ssj full power",
+  "melhor tecnica": "Gigantic Meteor",
+  "planetaNatal": "Sadala",
+  "descricao": "Versão clássica do lendário Super Saiyajin dos filmes de Dragon Ball Z; movido pelo ódio a Goku e com poder devastador fora de controle.",
+  "nomeJapones": "ブロリー"
+},
+{
+  "name": "Broly S",
+  "image": "/assets/personagens/broly-s.jpg",
+  "race": "Saiyajin (Legendary)",
+  "transform": "base, ssj, ssj full power",
+  "melhor tecnica": "Gigantic Roar",
+  "planetaNatal": "Planeta Vampa",
+  "descricao": "Versão reimaginada no filme Dragon Ball Super: Broly; um guerreiro puro e poderoso criado em um planeta hostil, que luta contra Goku e Vegeta.",
+  "nomeJapones": "ブロリー（超）"
+},
+  {
+    "name": "Paragus",
+    "image": "/assets/personagens/paragus.jpg",
+    "race": "Saiyajin",
+    "transform": "",
+    "melhor tecnica": "Táticas e controle sobre Broly",
+    "planetaNatal": "Sadala",
+    "descricao": "Pai de Broly; sobreviveu à destruição do Sadala e persegue seus próprios objetivos relacionados ao filho.",
+    "nomeJapones": "パラガス"
+  },
+  {
+    "name": "Turles",
+    "image": "/assets/personagens/turles.jpg",
+    "race": "Saiyajin",
+    "transform": "ssj",
+    "melhor tecnica": "Tree of Might seed",
+    "planetaNatal": "Sadala",
+    "descricao": "Antagonista do filme 'The Tree of Might' — um Saiyajin pirata que planta a Árvore do Poder para sugar vida do planeta.",
+    "nomeJapones": "ターレス"
+  },
+  {
+    "name": "Cabba",
+    "image": "/assets/personagens/cabba.jpg",
+    "race": "Saiyajin (Universo 6)",
+    "transform": "ssj",
+    "melhor tecnica": "Kikōken",
+    "planetaNatal": "Planeta Sadala",
+    "descricao": "Saiyajin do Universo 6, inicial participante do Torneio do Poder.",
+    "nomeJapones": "キャベ"
+  },
+  {
+    "name": "Caulifla",
+    "image": "/assets/personagens/caulifla.jpg",
+    "race": "Saiyajin (Universo 6)",
+    "transform": "ssj, ssj2",
+    "melhor tecnica": "Explosive Ki Attack",
+    "planetaNatal": "Planeta Sadala",
+    "descricao": "Saiyajin feminina do Universo 6, ambiciosa e líder de um grupo de jovens guerreiros.",
+    "nomeJapones": "カリフラ"
+  },
+  {
+    "name": "Kale",
+    "image": "/assets/personagens/kale.jpg",
+    "race": "Saiyajin (Universo 6)",
+    "transform": "ssj legendary",
+    "melhor tecnica": "Berserk Energy Barrage",
+    "planetaNatal": "Planeta Sadala",
+    "descricao": "Saiyajin de altíssimo poder latente no Universo 6; transforma-se em forma lendária ao perder o controle.",
+    "nomeJapones": "ケール"
+  },
+  {
+    "name": "Renso",
+    "image": "/assets/personagens/renso.jpg",
+    "race": "Saiyajin (Universo 6)",
+    "transform": "",
+    "melhor tecnica": "Técnicas de soldado e liderança",
+    "planetaNatal": "Planeta Sadala",
+    "descricao": "Capitão aposentado das forças de Sadala; mentor de Cabba e irmão de Caulifla.",
+    "nomeJapones": "レンソウ"
+  },
+  {
+    "name": "Pan",
+    "image": "/assets/personagens/pan-gt.jpg",
+    "race": "Híbrido Saiyajin",
+    "transform": "ssj",
+    "melhor tecnica": "Instinto de luta",
+    "planetaNatal": "Terra",
+    "descricao": "Filha de Gohan e Videl, neta de Goku — personagem jovem que carrega sangue Saiyajin na linhagem.",
+    "nomeJapones": "パン"
+  },
+  {
+    "name": "Bulla-gt",
+    "image": "/assets/personagens/bulla-gt.jpg",
+    "race": "Híbrido Saiyajin",
+    "transform": "",
+    "melhor tecnica": "—",
+    "planetaNatal": "Terra",
+    "descricao": "Filha de Vegeta e Bulma, também chamada Bra em algumas traduções; herança Saiyajin por parte de Vegeta.",
+    "nomeJapones": "ブラ"
+  },
+  {
+    "name": "Bulla-s",
+    "image": "/assets/personagens/bulla-s.jpg",
+    "race": "Híbrido Saiyajin",
+    "transform": "",
+    "melhor tecnica": "—",
+    "planetaNatal": "Terra",
+    "descricao": "Filha de Vegeta e Bulma, também chamada Bra em algumas traduções; herança Saiyajin por parte de Vegeta.",
+    "nomeJapones": "ブラ"
+  },
+  {
+    "name": "Future Gohan",
+    "image": "/assets/personagens/future-gohan.jpg",
+    "race": "Híbrido Saiyajin",
+    "transform": "ssj2, ultimate",
+    "melhor tecnica": "Masenko",
+    "planetaNatal": "Terra (linha futura alternativa)",
+    "descricao": "Versão futura de Gohan (aparece em linhas alternativas e jogos); endurecido pelas batalhas do futuro.",
+    "nomeJapones": "未来の孫悟飯"
+  },
+  {
+    "name": "Kid Goku",
+    "image": "/assets/personagens/goku-kid.jpg",
+    "race": "Saiyajin",
+    "transform": "oozaru",
+    "melhor tecnica": "Kamehameha",
+    "planetaNatal": "Sadala",
+    "descricao": "Goku em sua versão clássica de infância, protagonista do início de Dragon Ball.",
+    "nomeJapones": "孫 悟空（少年期）"
+  },
+  {
+    "name": "Shallot",
+    "image": "/assets/personagens/shallot.jpg",
+    "race": "Saiyajin (Antigo)",
+    "transform": "ssj, ssj2, ssj3, god saiyan",
+    "melhor tecnica": "Wild Cannon",
+    "planetaNatal": "Sadala (Era Antiga)",
+    "descricao": "Saiyajin, protagonista de DB Legends, um jogo mobile de luta, com design de Akira Toriyama. Ele é um Saiyajin antigo do Planeta Sadala, sofreu de amnésia e é conhecido por habilidades de aprender ataques de outros guerreiros e por suas transformações. Jogável em Sparking! Zero.",
+    "nomeJapones": "シャロット"
+  },
+  {
+    "name": "Goku Jr.",
+    "image": "/assets/personagens/goku-jr.jpg",
+    "race": "Híbrido Saiyajin-Humano",
+    "transform": "ssj",
+    "melhor tecnica": "Kamehameha",
+    "planetaNatal": "Terra",
+    "descricao": "Goku Jr. é um descendente distante de Son Goku, vive cem anos após Dragon Ball GT.",
+    "nomeJapones": "孫悟空ジュニア"
+  },
+  {
+    "name": "Vegeta Jr.",
+    "image": "/assets/personagens/vegeta-jr.jpg",
+    "race": "Híbrido Saiyajin-Humano",
+    "transform": "ssj",
+    "melhor tecnica": "Galick Gun",
+    "planetaNatal": "Terra",
+    "descricao": "Vegeta Jr. é descendente do Príncipe Vegeta, aparecendo no mesmo período que Goku Jr. em Dragon Ball GT.",
+    "nomeJapones": "ベジータジュニア"
   }
 ]

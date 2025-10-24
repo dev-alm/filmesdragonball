@@ -12,3 +12,16 @@
   font-family: 'inter';
   src: url(./Inter/Inter-VariableFont_opsz\,wght.ttf);
 }
+
+@font-face {
+  font-family: 'saiyan';
+  src: url(./saiyan_sans/);
+}
+@font-face {
+  font-family: 'saiyan-r-oblique';
+  src: url(./saiyan_sans/Saiyan-Sans-Right-Oblique.ttf);
+}
+@font-face {
+  font-family: 'saiyan-l-oblique';
+  src: url(./saiyan_sans/Saiyan-Sans-Left-Oblique.ttf);
+}
