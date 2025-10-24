@@ -10,13 +10,12 @@ async function carregarPersonagens() {
     mostrarPersonagens(todosPersonagens);
   } catch (erro) {
     console.error("Erro:", erro);
-    document.querySelector(".filme").innerHTML =
-      "<p style='color:red;'>Erro ao carregar personagens.</p>";
+    document.querySelector(".cards-container").innerHTML = "<p style='color:red;'>Erro ao carregar personagens.</p>";
   }
 }
 
 function mostrarPersonagens(personagens) {
-  const container = document.querySelector(".filme");
+  const container = document.querySelector(".cards-container");
   container.innerHTML = "";
 
   personagens.forEach((p) => {
@@ -26,20 +25,14 @@ function mostrarPersonagens(personagens) {
     card.innerHTML = `
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="${p.image || "assets/personagens/default.jpg"}" alt="${
-      p.name || "Desconhecido"
-    }">
+          <img src="${p.image || "assets/personagens/default.jpg"}" alt="${p.name || "Desconhecido"}">
         </div>
         <div class="flip-card-back">
           <h3 class="personagem-nome">${p.name || "Desconhecido"}</h3>
-          <p class="personagem-raca">${p.race ? "Raça: " + p.race : ""}</p>
-          ${
-            p.transform
-              ? `<p class="personagem-transform">Transformações: ${p.transform}</p>`
-              : ""
-          }
-          <p class="personagem-ki">${p.ki ? "Ki: " + p.ki : ""}</p>
-          <p class="personagem-descricao">${p.description || ""}</p>
+          ${p.race ? `<p class="personagem-raca"><span class="label-json">Raça:</span> <span class="valor-json">${p.race}</span></p>` : ""}
+          ${p.transform ? `<p class="personagem-transform"><span class="label-json">Transformações:</span> <span class="valor-json">${p.transform}</span></p>` : ""}
+          ${p.ki ? `<p class="personagem-ki"><span class="label-json">Ki:</span> <span class="valor-json">${p.ki}</span></p>` : ""}
+          ${p.description ? `<p class="personagem-descricao"><span class="label-json"></span> <span class="valor-json">${p.description}</span></p>` : ""}
         </div>
       </div>
     `;
@@ -55,9 +48,7 @@ function mostrarPersonagens(personagens) {
 // Evento de pesquisa
 document.getElementById("inputPesquisa").addEventListener("input", (e) => {
   const filtro = e.target.value.toLowerCase();
-  const filtrados = todosPersonagens.filter((p) =>
-    p.name.toLowerCase().includes(filtro)
-  );
+  const filtrados = todosPersonagens.filter((p) => p.name.toLowerCase().includes(filtro));
   mostrarPersonagens(filtrados);
 });
 

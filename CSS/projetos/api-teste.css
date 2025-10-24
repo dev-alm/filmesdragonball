@@ -1,30 +1,28 @@
 /* Container do card */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* min-width menor */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-items: center;
+  margin-top: 40px;
+}
 .card-personagens {
-  width: 300px;
-  height: 400px;
-  perspective: 1000px; /* necessário para o 3D */
-  margin-bottom: 20px;
+  width: 100%;      
+  max-width: 250px;     
+  aspect-ratio: 3 / 4;   /* mantém proporção */
+  perspective: 1000px;
   border: 2px solid var(--cor-primaria);
   border-radius: 10%;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.card-personagens img {
-  width: 100%;
-  height: 100%;
-  display: block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
-  /* filter: brightness(1.3); */
 }
 
-.card-personagens:hover img {
-  transform: scale(1.05); /* efeito de zoom suave ao passar o mouse */
-}
-
-/* Conteúdo interno que gira */
+/* Flip interno */
 .flip-card-inner {
-  position: relative;
   width: 100%;
   height: 100%;
   transition: transform 0.6s;
@@ -32,12 +30,11 @@
   cursor: pointer;
 }
 
-/* efeito de flip quando a classe 'flipped' está ativa */
 .flip-card-inner.flipped {
   transform: rotateY(180deg);
 }
 
-/* Frente e verso do card */
+/* Frente e verso */
 .flip-card-front,
 .flip-card-back {
   position: absolute;
@@ -48,79 +45,49 @@
   overflow: hidden;
 }
 
-/* Frente: apenas imagem */
+/* Imagem do card */
 .flip-card-front img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-/* Verso: informações */
+.card-personagens:hover img {
+  transform: scale(1.05);
+}
+
+/* Verso */
 .flip-card-back {
   background-color: black;
   color: white;
   transform: rotateY(180deg);
   padding: 10px;
   box-sizing: border-box;
-  text-align: left;
-  font-size: 0.8rem;
   font-family: "bebas-neue";
-  line-height: 1.5rem;
-}
-
-/* Nome do personagem */
-.flip-card-back .personagem-nome {
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #ffd700; /* dourado */
-  text-shadow: 1px 1px 2px black;
-  letter-spacing: 0.3rem;
-}
-
-/* Raça */
-.flip-card-back .personagem-raca {
-  font-size: 0.9rem;
-  margin: 2px 0;
-  color: #00ffff; /* ciano */
-}
-
-/* Ki */
-.flip-card-back .personagem-ki {
-  font-size: 0.9rem;
-  margin: 2px 0;
-  color: #ff4500; /* laranja forte */
-  font-weight: bold;
-}
-
-/* Descrição */
-.flip-card-back .personagem-descricao {
   font-size: 0.8rem;
-  margin-top: 5px;
-  color: #ffffff; /* branco */
-  line-height: 1.2;
+  line-height: 1.5rem;
+  text-align: left;
 }
 
-@media (max-width: 800px) {
-  li .filmes-fixo:after {
-    display: none;
-  }
-
-  li a {
-    font-size: 0.7rem;
-  }
-
-  .menu a {
-    padding: 4px 14px;
-    min-height: 0px;
-  }
+.flip-card-back .personagem-nome {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffd700;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 0.2rem;
+  margin-bottom: 10px;
 }
-@media (max-width: 325px) {
-  .introducao-itens .p-dragonballh1 {
+
+/* Responsividade fina para telas menores */
+@media (max-width: 600px) {
+  .flip-card-back .personagem-nome {
     font-size: 1.5rem;
   }
-
-  .introducao-itens p {
-    font-size: 0.9rem;
+  .flip-card-back {
+    font-size: 0.7rem;
+    line-height: 1.3rem;
   }
 }

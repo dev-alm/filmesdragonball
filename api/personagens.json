@@ -20,5 +20,12 @@
     "race": "Saiyan",
     "ki": "4000",
     "description": "Goten é o filho mais novo de Goku, alegre e cheio de energia."
+  },
+  {
+    "name": "Goten",
+    "image": "/assets/personagens/goten.jpg",
+    "race": "Saiyan",
+    "ki": "4000",
+    "description": "Goten é o filho mais novo de Goku, alegre e cheio de energia."
   }
 ]
