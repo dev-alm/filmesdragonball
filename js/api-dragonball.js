@@ -29,10 +29,12 @@ function mostrarPersonagens(personagens) {
         </div>
         <div class="flip-card-back">
           <h3 class="personagem-nome">${p.name || "Desconhecido"}</h3>
+          ${p.nomeJapones ? `<p class="personagem-japones"><span class="label-json">Nome Japonês:</span> <span class="valor-json">${p.nomeJapones}</span></p>` : ""}
           ${p.race ? `<p class="personagem-raca"><span class="label-json">Raça:</span> <span class="valor-json">${p.race}</span></p>` : ""}
-          ${p.transform ? `<p class="personagem-transform"><span class="label-json">Transformações:</span> <span class="valor-json">${p.transform}</span></p>` : ""}
-          ${p.ki ? `<p class="personagem-ki"><span class="label-json">Ki:</span> <span class="valor-json">${p.ki}</span></p>` : ""}
-          ${p.description ? `<p class="personagem-descricao"><span class="label-json"></span> <span class="valor-json">${p.description}</span></p>` : ""}
+${p.transform ? `<p class="personagem-transform"><span class="label-json">Transformações:</span> <span class="valor-json">${p.transform}</span></p>` : ""}
+${p["melhor tecnica"] ? `<p class="personagem-tecnica"><span class="label-json">Melhor técnica:</span> <span class="valor-json">${p["melhor tecnica"]}</span></p>` : ""}
+${p.planetaNatal ? `<p class="personagem-planeta"><span class="label-json">Planeta Natal:</span> <span class="valor-json">${p.planetaNatal}</span></p>` : ""}
+${p.descricao ? `<p class="personagem-descricao"><span class="label-json"></span> <span class="valor-json">${p.descricao}</span></p>` : ""}
         </div>
       </div>
     `;

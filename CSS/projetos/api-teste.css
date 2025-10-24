@@ -1,7 +1,7 @@
 /* Container do card */
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* min-width menor */
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); /* min-width menor */
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -10,15 +10,43 @@
   margin-top: 40px;
 }
 .card-personagens {
+  position: relative;
   width: 100%;      
-  max-width: 250px;     
-  aspect-ratio: 3 / 4;   /* mantém proporção */
+  max-width: 270px;     
+  height: 360px;
   perspective: 1000px;
-  border: 2px solid var(--cor-primaria);
+  border: 2px solid var();
   border-radius: 10%;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
+  z-index: 0;
+}
+
+/* Borda animada */
+.card-personagens::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* cobre todo o card */
+  border-radius: 10%;
+  padding: 4px; /* espessura da borda */
+  background: linear-gradient(270deg, #09ff00, #ff8800, #eeff00, #ae00ff);
+  background-size: 400% 400%;
+  z-index: 1; /* coloca sobre o fundo mas ainda atrás da imagem */
+  pointer-events: none; /* permite clicar na imagem normalmente */
+  box-sizing: border-box;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: glow 3s linear infinite;
+}
+
+@keyframes glow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 /* Flip interno */
@@ -43,6 +71,7 @@
   backface-visibility: hidden;
   border-radius: 10%;
   overflow: hidden;
+  z-index: 2;
 }
 
 /* Imagem do card */
@@ -79,6 +108,10 @@
   text-shadow: 1px 1px 2px black;
   letter-spacing: 0.2rem;
   margin-bottom: 10px;
+}
+
+.label-json {
+color: #ffd700;
 }
 
 /* Responsividade fina para telas menores */

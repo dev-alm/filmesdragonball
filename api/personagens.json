@@ -2,30 +2,41 @@
   {
     "name": "Goku",
     "image": "/assets/personagens/goku.jpg",
-    "race": "Saiyan",
-    "transform": "ssj, ssj2, ssj3",
-    "ki": "9000",
-    "description": "Goku é um Saiyajin criado na Terra, sempre buscando se tornar mais forte."
+    "raca": "Saiyajin",
+    "transform": "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinct",
+    "melhor tecnica": "Genki Dama (Spirit Bomb)",
+    "planetaNatal": "Planeta Vegeta (criado na Terra)",
+    "descricao": "Kakarot, criado como Son Goku na Terra. Guerreiro incansável, sempre em busca de superar seus limites e proteger a Terra.",
+    "nomeJapones": "孫 悟空"
   },
   {
-    "name": "Gohan Teen",
+    "name": "Gohan",
     "image": "/assets/personagens/gohan.jpg",
-    "race": "Saiyan",
-    "ki": "8500",
-    "description": "Gohan é filho de Goku, possui grande poder e potencial adormecido."
+    "raca": "Híbrido Saiyajin (meio Saiyajin, filho de Goku)",
+    "transform": "Super Saiyajin, Super Saiyajin 2, Ultimate/Beast Gohan (variações)",
+    "melhor tecnica": "Masenko / Kamehameha (variações), e seu poder latente (Rage/Ultimate)",
+    "planetaNatal": "Terra",
+    "descricao": "Filho mais velho de Goku; grande potencial latente que já salvou a Terra em diversas ocasiões.",
+    "nomeJapones": "孫 悟飯"
   },
   {
     "name": "Goten",
     "image": "/assets/personagens/goten.jpg",
-    "race": "Saiyan",
-    "ki": "4000",
-    "description": "Goten é o filho mais novo de Goku, alegre e cheio de energia."
+    "raca": "Híbrido Saiyajin (filho de Goku)",
+    "transform": "Super Saiyajin",
+    "melhor tecnica": "Kamehameha (aprendeu cedo) / Combina com Trunks (Gotenks)",
+    "planetaNatal": "Terra",
+    "descricao": "Filho mais novo de Goku, muito semelhante ao pai quando criança; forma Gotenks ao fusionar com Trunks.",
+    "nomeJapones": "孫 悟天"
   },
   {
-    "name": "Goten",
-    "image": "/assets/personagens/goten.jpg",
+    "name": "Vegeta",
+    "image": "/assets/personagens/vegeta.jpeg",
     "race": "Saiyan",
-    "ki": "4000",
-    "description": "Goten é o filho mais novo de Goku, alegre e cheio de energia."
+    "transform": "ssj, ssj2, ssj3, god saiyan, ssj blue, ssj blue evolution, ultra ego",
+    "melhor tecnica": "Final Flash",
+    "planetaNatal": "Planeta Vegeta",
+    "descricao": "Príncipe dos Saiyajins, orgulhoso e rival de Goku; torna-se aliado e protetor da Terra.",
+    "nomeJapones": "ベジータ"
   }
 ]
