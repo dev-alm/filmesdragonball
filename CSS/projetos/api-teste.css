@@ -3,6 +3,7 @@
   color: var(--texto);
   line-height: 76px;
   font-family: "saiyan-l-oblique";
+  text-align: center;
 }
 
 /* Container do card */
@@ -63,6 +64,7 @@
   transition: transform 0.6s;
   transform-style: preserve-3d;
   cursor: pointer;
+  display: flex;
 }
 
 .flip-card-inner.flipped {
@@ -72,13 +74,14 @@
 /* Frente e verso */
 .flip-card-front,
 .flip-card-back {
+  flex: 1 1 100%;
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
   border-radius: 10%;
   overflow: hidden;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .flip-card-back {
@@ -89,15 +92,16 @@
   background-image: url("/assets/back-card/torneio-classico.jpg");
   background-size: cover;
   background-position: center;
+  z-index: 1;
 }
 
 .flip-card-back::before {
-  content: "";
+   content: "";
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.4); /* camada escura */
   backdrop-filter: blur(8px);     /* efeito glass */
-  z-index: -1;
+  z-index: -2;   
 }
 
 /* Imagem do card */
@@ -140,6 +144,17 @@
 color: #ffd700;
 }
 
+
+@media (max-width: 995px) {
+  .personagens-introducao {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+}
+
+
 /* Responsividade fina para telas menores */
 @media (max-width: 600px) {
   .flip-card-back .personagem-nome {
@@ -148,5 +163,17 @@ color: #ffd700;
   .flip-card-back {
     font-size: 0.7rem;
     line-height: 1.3rem;
+  }
+  .titulo-personagem {
+    line-height: 60px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+
+@media (max-width: 330px) {
+  .titulo-personagem {
+    line-height: 40px;
   }
 }
