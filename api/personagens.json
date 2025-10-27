@@ -2,6 +2,11 @@
   {
     "name": "Goku",
     "image": "/assets/personagens/goku.jpg",
+    "flips":[
+    "/assets/personagens/flip/goku/goku-ssj.jpg",
+    "/assets/personagens/flip/goku/goku-ssj2.jpg",
+    "/assets/personagens/flip/goku/goku-ssj3.jpg"
+  ],
     "race": "Saiyajin",
     "transform": "ssj, ssj2, ssj3, god saiyan, ssj blue, ssj blue kaioken, ultra instinct",
     "melhor tecnica": "Genki Dama (Spirit Bomb)",
@@ -12,6 +17,10 @@
   {
     "name": "Teen Gohan",
     "image": "/assets/personagens/gohan-teen.jpg",
+    "flips":[
+    "/assets/personagens/flip/gohan/gohan-ssj.jpg",
+    "/assets/personagens/flip/gohan/gohan-ssj2.jpg"
+  ],
     "race": "Híbrido Saiyajin",
     "transform": "ssj, ssj2",
     "melhor tecnica": "Masenko",
@@ -22,6 +31,10 @@
   {
     "name": "Goten",
     "image": "/assets/personagens/goten.jpg",
+    "flips":[
+    "/assets/personagens/flip/goten/goten-ssj-a.jpg",
+    "/assets/personagens/flip/goten/goten-ssj.jpg"
+  ],
     "race": "Híbrido Saiyajin (filho de Goku)",
     "transform": "ssj",
     "melhor tecnica": "Kamehameha",

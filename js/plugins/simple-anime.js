@@ -22,3 +22,8 @@ window.SimpleAnime = class {
       document.addEventListener("visibilitychange", this.handleVisibility);
   }
 };
+
+// Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
