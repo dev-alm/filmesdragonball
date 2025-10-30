@@ -2,11 +2,11 @@
   {
     "name": "Goku Z",
     "image": "/assets/personagens/goku.jpg",
-    "flips":[
-    "/assets/personagens/flip/goku/goku-ssj.jpg",
-    "/assets/personagens/flip/goku/goku-ssj2.jpg",
-    "/assets/personagens/flip/goku/goku-ssj3.jpg"
-  ],
+    "flips": [
+      "/assets/personagens/flip/goku/goku-ssj.jpg",
+      "/assets/personagens/flip/goku/goku-ssj2.jpg",
+      "/assets/personagens/flip/goku/goku-ssj3.jpg"
+    ],
     "race": "Saiyajin",
     "transform": "ssj, ssj2, ssj3",
     "melhor tecnica": "Genki Dama, Kamehameha",
@@ -17,10 +17,10 @@
   {
     "name": "Teen Gohan",
     "image": "/assets/personagens/gohan-teen.jpg",
-    "flips":[
-    "/assets/personagens/flip/gohan/gohan-ssj.jpg",
-    "/assets/personagens/flip/gohan/gohan-ssj2.jpg"
-  ],
+    "flips": [
+      "/assets/personagens/flip/gohan/gohan-ssj.jpg",
+      "/assets/personagens/flip/gohan/gohan-ssj2.jpg"
+    ],
     "race": "Híbrido Saiyajin",
     "transform": "ssj, ssj2",
     "melhor tecnica": "Masenko, Kamehameha",
@@ -31,10 +31,10 @@
   {
     "name": "Goten",
     "image": "/assets/personagens/goten.jpg",
-    "flips":[
-    "/assets/personagens/flip/goten/goten-ssj-a.jpg",
-    "/assets/personagens/flip/goten/goten-ssj.jpg"
-  ],
+    "flips": [
+      "/assets/personagens/flip/goten/goten-ssj-a.jpg",
+      "/assets/personagens/flip/goten/goten-ssj.jpg"
+    ],
     "race": "Híbrido Saiyajin (filho de Goku)",
     "transform": "ssj",
     "melhor tecnica": "Kamehameha",
@@ -45,11 +45,11 @@
   {
     "name": "Vegeta Z",
     "image": "/assets/personagens/vegeta.jpeg",
-    "flips":[
-    "/assets/personagens/flip/vegeta/vegeta-ssj.jpg",
-    "/assets/personagens/flip/vegeta/vegeta-ssj2.jpg",
-    "/assets/personagens/flip/vegeta/majin-vegeta.jpg"
-  ],
+    "flips": [
+      "/assets/personagens/flip/vegeta/vegeta-ssj.jpg",
+      "/assets/personagens/flip/vegeta/vegeta-ssj2.jpg",
+      "/assets/personagens/flip/vegeta/majin-vegeta.jpg"
+    ],
     "race": "Saiyan",
     "transform": "ssj, ssj2, majin vegeta",
     "melhor tecnica": "Final Flash",
@@ -60,11 +60,11 @@
   {
     "name": "Gohan Adulto",
     "image": "/assets/personagens/gohan-adulto.jpg",
-    "flips":[
-    "/assets/personagens/flip/gohan-adulto/gohan-a-ssj.jpg",
-    "/assets/personagens/flip/gohan-adulto/gohan-a-ssj2.jpg",
-    "/assets/personagens/flip/gohan-adulto/gohan-mystic.jpg"
-  ],
+    "flips": [
+      "/assets/personagens/flip/gohan-adulto/gohan-a-ssj.jpg",
+      "/assets/personagens/flip/gohan-adulto/gohan-a-ssj2.jpg",
+      "/assets/personagens/flip/gohan-adulto/gohan-mystic.jpg"
+    ],
     "race": "Híbrido Saiyajin",
     "transform": "ssj, ssj2, ultimate (mystic)",
     "melhor tecnica": "Masenko, Kamehameha",
@@ -73,22 +73,27 @@
     "nomeJapones": "孫 悟飯"
   },
   {
-  "name": "Kid Trunks",
-  "image": "/assets/personagens/trunks-kid.jpg",
-   "flips":[
-    "/assets/personagens/flip/trunks-kid/trunks-kid-ssj.jpg",
-    "/assets/personagens/flip/trunks-kid/trunks-kid2-ssj.jpg"
-  ],
-  "race": "Híbrido Saiyajin",
-  "transform": "ssj",
-  "melhor tecnica": "Burning Attack",
-  "planetaNatal": "Terra",
-  "descricao": "Filho de Vegeta e Bulma na infância; curioso e determinado, treina com seu pai e participa de pequenas aventuras, ainda sem dominar totalmente suas habilidades.",
-  "nomeJapones": "トランクス"
-},
+    "name": "Kid Trunks",
+    "image": "/assets/personagens/trunks-kid.jpg",
+    "flips": [
+      "/assets/personagens/flip/trunks-kid/trunks-kid-ssj.jpg",
+      "/assets/personagens/flip/trunks-kid/trunks-kid2-ssj.jpg"
+    ],
+    "race": "Híbrido Saiyajin",
+    "transform": "ssj",
+    "melhor tecnica": "Burning Attack",
+    "planetaNatal": "Terra",
+    "descricao": "Filho de Vegeta e Bulma na infância; curioso e determinado, treina com seu pai e participa de pequenas aventuras, ainda sem dominar totalmente suas habilidades.",
+    "nomeJapones": "トランクス"
+  },
   {
     "name": "Future Trunks",
     "image": "/assets/personagens/future-trunks.jpg",
+    "flips": [
+      "/assets/personagens/flip/trunks-adulto/trunks-ssj.jpg",
+      "/assets/personagens/flip/trunks-adulto/trunks2-ssj.jpg",
+      "/assets/personagens/flip/trunks-adulto/super-trunks.jpg"
+    ],
     "race": "Híbrido Saiyajin",
     "transform": "ssj, ssj2, ssj rage",
     "melhor tecnica": "Burning Attack",
@@ -99,6 +104,11 @@
   {
     "name": "Goku Black",
     "image": "/assets/personagens/goku-black.jpg",
+    "flips": [
+      "/assets/personagens/flip/goku-black/goku-black-ssj.jpg",
+      "/assets/personagens/flip/goku-black/goku-black2-ssj.jpg",
+      "/assets/personagens/flip/goku-black/goku-black3-ssj.jpg"
+    ],
     "race": "Zamasu (immortal) em corpo de Saiyajin",
     "transform": "ssj rose",
     "melhor tecnica": "Black Kamehameha",
@@ -197,25 +207,25 @@
     "nomeJapones": "ボルゴス"
   },
   {
-  "name": "Broly Z",
-  "image": "/assets/personagens/broly-z.jpg",
-  "race": "Saiyajin (Legendary)",
-  "transform": "ssj, ssj legendary, ssj full power",
-  "melhor tecnica": "Gigantic Meteor",
-  "planetaNatal": "Sadala",
-  "descricao": "Versão clássica do lendário Super Saiyajin dos filmes de Dragon Ball Z; movido pelo ódio a Goku e com poder devastador fora de controle.",
-  "nomeJapones": "ブロリー"
-},
-{
-  "name": "Broly S",
-  "image": "/assets/personagens/broly-s.jpg",
-  "race": "Saiyajin (Legendary)",
-  "transform": "base, ssj, ssj full power",
-  "melhor tecnica": "Gigantic Roar",
-  "planetaNatal": "Planeta Vampa",
-  "descricao": "Versão reimaginada no filme Dragon Ball Super: Broly; um guerreiro puro e poderoso criado em um planeta hostil, que luta contra Goku e Vegeta.",
-  "nomeJapones": "ブロリー（超）"
-},
+    "name": "Broly Z",
+    "image": "/assets/personagens/broly-z.jpg",
+    "race": "Saiyajin (Legendary)",
+    "transform": "ssj, ssj legendary, ssj full power",
+    "melhor tecnica": "Gigantic Meteor",
+    "planetaNatal": "Sadala",
+    "descricao": "Versão clássica do lendário Super Saiyajin dos filmes de Dragon Ball Z; movido pelo ódio a Goku e com poder devastador fora de controle.",
+    "nomeJapones": "ブロリー"
+  },
+  {
+    "name": "Broly S",
+    "image": "/assets/personagens/broly-s.jpg",
+    "race": "Saiyajin (Legendary)",
+    "transform": "base, ssj, ssj full power",
+    "melhor tecnica": "Gigantic Roar",
+    "planetaNatal": "Planeta Vampa",
+    "descricao": "Versão reimaginada no filme Dragon Ball Super: Broly; um guerreiro puro e poderoso criado em um planeta hostil, que luta contra Goku e Vegeta.",
+    "nomeJapones": "ブロリー（超）"
+  },
   {
     "name": "Paragus",
     "image": "/assets/personagens/paragus.jpg",
