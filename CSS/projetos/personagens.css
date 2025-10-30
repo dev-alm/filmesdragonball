@@ -1,0 +1,290 @@
+.titulo-personagem-new {
+  font-size: 4rem;
+  color: var(--texto);
+  line-height: 76px;
+  font-family: "saiyan-l-oblique";
+  text-align: center;
+}
+
+/* Container do card */
+.cards-container-new {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.card-personagens-new {
+  position: relative;
+  width: 100%;      
+  max-width: 200px;     
+  height: 200px;
+  perspective: 1000px;
+  border: 2px solid var();
+  border-radius: 10%;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  z-index: 0;
+}
+
+.card-personagens-new img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 0;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-personagens-new:hover img {
+  transform: scale(1.05);
+}
+
+/* Borda animada */
+.card-personagens-new::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10%;
+  padding: 4px;
+  background: linear-gradient(270deg, #09ff00, #ff8800, #eeff00, #ae00ff);
+  background-size: 400% 400%;
+  z-index: 1;
+  pointer-events: none;
+  box-sizing: border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: glow 3s linear infinite;
+}
+
+@keyframes glow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.personagem-nome {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--cor-destaque);
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 0.2rem;
+  margin-bottom: 10px;
+}
+
+.seta {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(9, 255, 0, 0.411);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  width: 55px;
+  height: 55px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.seta .icon-seta {
+  width: 24px;
+  height: 24px;
+}
+
+.seta:hover { background: rgba(238, 255, 0, 0.568); }
+.seta-esquerda { left: 10px; }
+.seta-direita { right: 10px; }
+
+.label-json { color: #00ff0d; }
+
+@media (max-width: 995px) {
+  .personagens-introducao {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .flip-card-back .personagem-nome { font-size: 1.5rem; }
+  .flip-card-back { font-size: 0.7rem; line-height: 1.3rem; }
+  .titulo-personagem { line-height: 60px; margin-bottom: 0; padding-bottom: 0; }
+}
+
+@media (max-width: 420px) { .seta { display: none; } }
+@media (max-width: 330px) { .titulo-personagem { line-height: 40px; } }
+
+/* Overlay */
+.overlay-personagem-new {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+}
+
+.overlay-personagem-new.hidden-new { display: none; }
+
+/* Fundo desfocado */
+.overlay-fundo {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+/* Container dos cards dentro do overlay */
+.cards-centrais-new {
+  display: flex;
+  gap: 20px;
+  z-index: 20;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Card do overlay */
+.card-detalhe {
+  background-color: #111;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #00ff0d;
+}
+
+.card-detalhe img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.nome-personagem-new {
+  color: #d4d4d4ce;
+  text-align: center;
+  width: 100%;
+  font-size: 2.5rem;
+}
+
+.info-personagem-new { line-height: 40px; }
+
+.personagem-descricao {
+  line-height: 30px;
+  text-align: center;
+  background-color: #50505069;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.personagem-planeta { margin-bottom: 30px; }
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Botão de fechar overlay */
+.fechar-overlay-new {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fechar-overlay-new:hover { background-color: #fcff33; color: #fff; }
+
+/* Prisma 3D */
+.flip-prisma {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(.2,.8,.2,1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-prisma img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .cards-centrais-new { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); }
+  .card-flip { width: 360px; height: 500px; overflow: visible; }
+  .card-info { width: 90%; max-height: none; }
+  .fechar-overlay-new { top: 10px; right: 10px; }
+}
+
+@media (max-width: 631px) {
+  .cards-centrais-new { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .card-flip { width: 240px; height: 420px; }
+  .card-detalhe { width: 240px; height: 420px; margin-left: -20px; overflow: visible; }
+}
+
+@media (max-width: 526px) {
+  .cards-centrais-new { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 150px)); }
+  .card-flip { width: 150px; height: 200px; }
+  .card-detalhe { width: 200px; height: 500px; margin-left: -20px; }
+}
+
+@media (max-width: 379px) {
+  .cards-centrais-new {
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    padding: 0 5px;
+    gap: 10px;
+  }
+  .card-info { width: 100%; max-width: 330px; height: 90vh; padding: 10px; }
+  .card-flip { width: 100%; max-width: 330px; height: 60vh; padding: 10px; margin-top: 100px; }
+  .card-flip img { margin-top: 180px; margin-left: -20px; width: 380px; }
+}

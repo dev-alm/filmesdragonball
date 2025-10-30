@@ -1,6 +1,6 @@
 [
   {
-    "name": "Goku",
+    "name": "Goku Z",
     "image": "/assets/personagens/goku.jpg",
     "flips":[
     "/assets/personagens/flip/goku/goku-ssj.jpg",
@@ -8,8 +8,8 @@
     "/assets/personagens/flip/goku/goku-ssj3.jpg"
   ],
     "race": "Saiyajin",
-    "transform": "ssj, ssj2, ssj3, god saiyan, ssj blue, ssj blue kaioken, ultra instinct",
-    "melhor tecnica": "Genki Dama (Spirit Bomb)",
+    "transform": "ssj, ssj2, ssj3",
+    "melhor tecnica": "Genki Dama, Kamehameha",
     "planetaNatal": "Sadala (criado na Terra)",
     "descricao": "Kakarot, criado como Son Goku na Terra. Guerreiro incansável, sempre em busca de superar seus limites e proteger a Terra.",
     "nomeJapones": "孫 悟空"
@@ -23,7 +23,7 @@
   ],
     "race": "Híbrido Saiyajin",
     "transform": "ssj, ssj2",
-    "melhor tecnica": "Masenko",
+    "melhor tecnica": "Masenko, Kamehameha",
     "planetaNatal": "Terra",
     "descricao": "Gohan na adolescência, filho de Goku; demonstra grande potencial e coragem, já tendo salvado a Terra em momentos críticos.",
     "nomeJapones": "孫 悟飯"
@@ -43,10 +43,15 @@
     "nomeJapones": "孫 悟天"
   },
   {
-    "name": "Vegeta",
+    "name": "Vegeta Z",
     "image": "/assets/personagens/vegeta.jpeg",
+    "flips":[
+    "/assets/personagens/flip/vegeta/vegeta-ssj.jpg",
+    "/assets/personagens/flip/vegeta/vegeta-ssj2.jpg",
+    "/assets/personagens/flip/vegeta/majin-vegeta.jpg"
+  ],
     "race": "Saiyan",
-    "transform": "ssj, ssj2, ssj3, god saiyan, ssj blue, ssj blue evolution, ultra ego",
+    "transform": "ssj, ssj2, majin vegeta",
     "melhor tecnica": "Final Flash",
     "planetaNatal": "Sadala",
     "descricao": "Príncipe dos Saiyajins, orgulhoso e rival de Goku; torna-se aliado e protetor da Terra.",
@@ -55,9 +60,14 @@
   {
     "name": "Gohan Adulto",
     "image": "/assets/personagens/gohan-adulto.jpg",
+    "flips":[
+    "/assets/personagens/flip/gohan-adulto/gohan-a-ssj.jpg",
+    "/assets/personagens/flip/gohan-adulto/gohan-a-ssj2.jpg",
+    "/assets/personagens/flip/gohan-adulto/gohan-mystic.jpg"
+  ],
     "race": "Híbrido Saiyajin",
-    "transform": "ssj, ssj2, ultimate (mystic), bestial",
-    "melhor tecnica": "Masenko",
+    "transform": "ssj, ssj2, ultimate (mystic)",
+    "melhor tecnica": "Masenko, Kamehameha",
     "planetaNatal": "Terra",
     "descricao": "Gohan adulto, maduro e responsável; continua sendo um dos guerreiros mais poderosos da Terra e líder em batalhas importantes.",
     "nomeJapones": "孫 悟飯"
@@ -65,6 +75,10 @@
   {
   "name": "Kid Trunks",
   "image": "/assets/personagens/trunks-kid.jpg",
+   "flips":[
+    "/assets/personagens/flip/trunks-kid/trunks-kid-ssj.jpg",
+    "/assets/personagens/flip/trunks-kid/trunks-kid2-ssj.jpg"
+  ],
   "race": "Híbrido Saiyajin",
   "transform": "ssj",
   "melhor tecnica": "Burning Attack",

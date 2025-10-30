@@ -1,4 +1,8 @@
 :root {
+  --cor-texto: #d4d4d4ce;
+  --cor-destaque: #00ff0d;
+  --cor-fundo-card: #111;
+  --cor-overlay: rgba(0, 0, 0, 0.5);
   --cor-primaria: #f59f00;
   --cor-primaria-escura: rgb(0, 92, 95);
   --fundo-1: #ffffff;
@@ -14,6 +18,7 @@
     circle,
     rgba(41, 0, 107, 0.815),
     rgba(15, 0, 58, 0.973)
+    
   );
 }
 

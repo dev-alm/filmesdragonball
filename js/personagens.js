@@ -32,44 +32,67 @@ function abrirOverlay(personagem) {
   const overlay = document.querySelector(".overlay-personagem-new");
   const cardPrisma = overlay.querySelector(".flip-prisma");
   const cardInfo = overlay.querySelector(".card-info");
+  const btnEsquerda = overlay.querySelector(".seta-esquerda");
+  const btnDireita = overlay.querySelector(".seta-direita");
   overlay.classList.remove("hidden-new");
 
   // Limpa imagens antigas
   cardPrisma.innerHTML = "";
 
   const imagens = personagem.flips || [personagem.imageFront, personagem.imageBack];
-  const totalFaces = imagens.length;
+  const totalFaces = imagens.filter(Boolean).length; // ignora undefined
   const radius = 175;
 
   // Cria as faces do prisma
   imagens.forEach((imgSrc, i) => {
+    if (!imgSrc) return;
     const img = document.createElement("img");
     img.src = imgSrc;
     img.style.transform = `rotateY(${i * (360 / totalFaces)}deg) translateZ(${radius}px)`;
     cardPrisma.appendChild(img);
   });
 
-  // **Reset da rotação sempre que abrir**
+  // Controle de rotação
   let rotacaoAcumulada = 0;
-  cardPrisma.style.transform = `rotateY(${rotacaoAcumulada}deg)`; // primeira face visível
+  let indiceAtual = 0;
+  cardPrisma.style.transform = `rotateY(${rotacaoAcumulada}deg)`;
 
-  // Gira o prisma ao clicar
-  cardPrisma.onclick = () => {
-    rotacaoAcumulada -= 360 / totalFaces; 
+  // Funções para girar
+  function mostrarProximo() {
+    indiceAtual = (indiceAtual + 1) % totalFaces;
+    rotacaoAcumulada -= 360 / totalFaces;
     cardPrisma.style.transform = `rotateY(${rotacaoAcumulada}deg)`;
+  }
+
+  function mostrarAnterior() {
+    indiceAtual = (indiceAtual - 1 + totalFaces) % totalFaces;
+    rotacaoAcumulada += 360 / totalFaces;
+    cardPrisma.style.transform = `rotateY(${rotacaoAcumulada}deg)`;
+  }
+
+  // Clique nas setas
+  btnDireita.onclick = (e) => {
+    e.stopPropagation();
+    mostrarProximo();
+  };
+  btnEsquerda.onclick = (e) => {
+    e.stopPropagation();
+    mostrarAnterior();
   };
 
   // Atualiza info
   cardInfo.querySelector(".nome-personagem-new").textContent = personagem.name || "Desconhecido";
   cardInfo.querySelector(".info-personagem-new").innerHTML = `
-    ${personagem.nomeJapones ? `<p><strong>Nome Japonês:</strong> ${personagem.nomeJapones}</p>` : ""}
-    ${personagem.race ? `<p><strong>Raça:</strong> ${personagem.race}</p>` : ""}
-    ${personagem.transform ? `<p><strong>Transformações:</strong> ${personagem.transform}</p>` : ""}
-    ${personagem["melhor tecnica"] ? `<p><strong>Melhor técnica:</strong> ${personagem["melhor tecnica"]}</p>` : ""}
-    ${personagem.planetaNatal ? `<p><strong>Planeta Natal:</strong> ${personagem.planetaNatal}</p>` : ""}
-    <p>${personagem.descricao || ""}</p>
-  `;
+  ${personagem.nomeJapones ? `<p class="personagem-japones"><span class="label-json">Nome Japonês:</span> <span class="valor-json">${personagem.nomeJapones}</span></p>` : ""}
+  ${personagem.race ? `<p class="personagem-raca"><span class="label-json">Raça:</span> <span class="valor-json">${personagem.race}</span></p>` : ""}
+  ${personagem.transform ? `<p class="personagem-transform"><span class="label-json">Transformações:</span> <span class="valor-json">${personagem.transform}</span></p>` : ""}
+  ${personagem["melhor tecnica"] ? `<p class="personagem-tecnica"><span class="label-json">Melhor técnica:</span> <span class="valor-json">${personagem["melhor tecnica"]}</span></p>` : ""}
+  ${personagem.planetaNatal ? `<p class="personagem-planeta"><span class="label-json">Planeta Natal:</span> <span class="valor-json">${personagem.planetaNatal}</span></p>` : ""}
+  ${personagem.descricao ? `<p class="personagem-descricao"><span class="label-json"></span> <span class="valor-json">${personagem.descricao}</span></p>` : ""}
+`;
 }
+
+
 
 // Fechar overlay
 const overlay = document.querySelector(".overlay-personagem-new");

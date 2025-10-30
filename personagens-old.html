@@ -14,17 +14,18 @@
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/teste-zoom.css" />
   </head>
+
   <body>
     <header class="t-padrao">
       <ul class="menu">
         <li><a href="./index.html">SOBRE MIM</a></li>
         <li><a href="./filmes.html">FILMES</a></li>
+        <!-- <li><a href="./projetos.html">FILMES</a></li> -->
         <li>
           <a class="filmes-fixo" href="./personagens.html">PERSONAGENS</a>
         </li>
-        <div class="pesquisa-personagem-new">
+        <div class="pesquisa-personagem">
           <input
             type="text"
             id="inputPesquisa"
@@ -33,47 +34,39 @@
         </div>
       </ul>
     </header>
-
     <nav class="t-padrao personagens-introducao">
       <div class="introducao-itens fadeInDown" data-anime="100">
         <h1 class="titulo-personagem">Qual O seu favOritO?</h1>
       </div>
     </nav>
 
-    <main class="t-padrao cards-container-new">
-      <div class="card-personagens-new">
-        <div class="">
+    <main class="t-padrao cards-container">
+      <div class="card-personagens flip-card-inner">
+        <div class="flip-card-front">
           <img src="" alt="" />
         </div>
       </div>
     </main>
 
-    <!-- Overlay -->
-    <div class="overlay-personagem-new hidden-new">
-  <div class="overlay-fundo"></div>
-  <button class="fechar-overlay-new">✕</button>
-
-  <div class="cards-centrais-new">
-    <!-- Card prisma -->
-    <div class="card-detalhe card-flip">
-      <button class="seta seta-esquerda" aria-label="Anterior"><img class="icon-seta" src="./assets/icones-setas/seta-esquerda.png" alt=""></button>
-
-      <div class="flip-prisma">
-        <!-- imagens inseridas dinamicamente aqui -->
+    <!-- Overlay de exibição detalhada -->
+    <div class="overlay-personagem hidden">
+      <div class="cards-centrais">
+        <button class="fechar-overlay">✕</button>
+        <div class="card-frente">
+          <img src="" alt="Frente" />
+        </div>
+        <div class="card-verso">
+          <h2 class="nome-personagem"></h2>
+          <p class="info-personagem"></p>
+        </div>
       </div>
-
-      <button class="seta seta-direita" aria-label="Próximo"><img src="./assets/icones-setas/seta-direita.png" alt=""></button>
     </div>
 
-    <!-- Card info -->
-    <div class="card-detalhe card-info">
-      <h2 class="nome-personagem-new"></h2>
-      <p class="info-personagem-new"></p>
-    </div>
-  </div>
-</div>
-
+    <script src="/js/remover-capa-btn-play.js"></script>
+    <script src="./js/envio-formulario.js"></script>
     <script src="./js/plugins/simple-anime.js"></script>
-    <script src="./js/personagens.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/api-dragonball.js"></script>
+    <script src="./js/zoom-cards.js"></script>
   </body>
 </html>
