@@ -146,7 +146,7 @@
   inset: 0;
   backdrop-filter: blur(8px);
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 10;
+  z-index: 5;
 }
 
 /* Container dos cards dentro do overlay */
@@ -161,10 +161,12 @@
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
+  z-index: 10;
 }
 
 /* Card do overlay */
 .card-detalhe {
+  position: relative;
   background-color: #111;
   border-radius: 10px;
   padding: 20px;
@@ -178,6 +180,7 @@
   position: relative;
   overflow: hidden;
   border: 2px solid #00ff0d;
+  overflow: visible;
 }
 
 .card-detalhe img {
@@ -214,9 +217,9 @@
 
 /* Botão de fechar overlay */
 .fechar-overlay-new {
-  position: fixed;
-  top: 20px;
-  right: 20px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
   background: #ff0000;
   color: #fff;
   border: none;
@@ -225,7 +228,7 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
-  z-index: 99999;
+  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,16 +261,121 @@
 
 /* Responsividade */
 @media (max-width: 900px) {
-  .cards-centrais-new { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); }
-  .card-flip { width: 360px; height: 500px; overflow: visible; }
-  .card-info { width: 90%; max-height: none; }
-  .fechar-overlay-new { top: 10px; right: 10px; }
+  .cards-centrais-new {
+    display: grid;
+    grid-template-columns: 45% 45%; /* primeira menor, segunda maior */
+    gap: 20px; /* espaço entre colunas */
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 0 20px; /* espaço nas laterais */
+    box-sizing: border-box;
+  }
+
+  /* Card do prisma (menor) */
+  .card-flip {
+    width: 100%;
+    height: 420px;
+    max-width: none;
+    overflow: hidden;
+    justify-self: end;
+    margin-right: 5px;
+  }
+
+  /* Card de informações (maior) */
+  .card-info {
+    width: 100%;
+    height: 420px;
+    max-width: none;
+    justify-self: start;
+  }
+
+  .card-detalhe {
+    border: 2px solid #00ff0d;
+    border-radius: 10px;
+    position: relative;
+    z-index: 50;
+  }
+
+  .nome-personagem-new {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .info-personagem-new {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  /* ajusta botões de seta */
+  .seta {
+    width: 45px;
+    height: 45px;
+  }
 }
 
-@media (max-width: 631px) {
-  .cards-centrais-new { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-  .card-flip { width: 240px; height: 420px; }
-  .card-detalhe { width: 240px; height: 420px; margin-left: -20px; overflow: visible; }
+
+
+@media (max-width: 700px) {
+  .cards-centrais-new {
+    display: grid;
+    grid-template-columns: 45% 50%; /* primeira menor, segunda maior */
+    gap: 5px; /* espaço entre colunas */
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 0 40px; /* espaço nas laterais */
+    box-sizing: border-box;
+  }
+
+  /* Card do prisma (menor) */
+  .card-flip {
+    width: 100%;
+    height: 600px;
+    max-width: none;
+    overflow: hidden;
+    justify-self: end;
+    margin-right: 5px;
+  }
+
+  /* Card de informações (maior) */
+  .card-info {
+    width: 100%;
+    height: 600px;
+    max-width: none;
+    justify-self: start;
+  }
+
+  .card-detalhe {
+    border: 2px solid #00ff0d;
+    border-radius: 10px;
+  }
+
+  .nome-personagem-new {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .info-personagem-new {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  /* ajusta botões de seta */
+  .seta {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+
+
+
+
+/* @media (max-width: 631px) {
+  .cards-centrais-new { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 150px)); }
+  .card-flip { width: 50px; height: 20px; }
+  .card-detalhe { width: 20px; height: 500px; margin-left: -20px; }
 }
 
 @media (max-width: 526px) {
@@ -287,4 +395,4 @@
   .card-info { width: 100%; max-width: 330px; height: 90vh; padding: 10px; }
   .card-flip { width: 100%; max-width: 330px; height: 60vh; padding: 10px; margin-top: 100px; }
   .card-flip img { margin-top: 180px; margin-left: -20px; width: 380px; }
-}
+} */
