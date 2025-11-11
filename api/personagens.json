@@ -119,6 +119,11 @@
   {
     "name": "Raditz",
     "image": "/assets/personagens/raditz.jpg",
+    "flips": [
+      "/assets/personagens/flip/raditz/",
+      "/assets/personagens/flip/raditz/",
+      "/assets/personagens/flip/raditz/"
+    ],
     "race": "Saiyajin",
     "transform": "oozaru",
     "melhor tecnica": "Double Sunday",
@@ -129,6 +134,11 @@
   {
     "name": "Nappa",
     "image": "/assets/personagens/nappa.jpg",
+    "flips": [
+      "/assets/personagens/flip/nappa/",
+      "/assets/personagens/flip/nappa/",
+      "/assets/personagens/flip/nappa/"
+    ],
     "race": "Saiyajin",
     "transform": "oozaru",
     "melhor tecnica": "Break Cannon",
@@ -139,6 +149,10 @@
   {
     "name": "King Vegeta",
     "image": "/assets/personagens/king-vegeta.jpg",
+    "flips": [
+      "/assets/personagens/flip/king-vegeta/",
+      "/assets/personagens/flip/king-vegeta/"
+    ],
     "race": "Saiyajin",
     "transform": "oozaru",
     "melhor tecnica": "Ataques de ki padrão",
@@ -149,6 +163,10 @@
   {
     "name": "Bardock Z",
     "image": "/assets/personagens/bardock-z.jpg",
+    "flips": [
+      "/assets/personagens/flip/bardock-z/",
+      "/assets/personagens/flip/bardock-z/"
+    ],
     "race": "Saiyajin",
     "transform": "ssj",
     "melhor tecnica": "Riot Javelin",
@@ -159,6 +177,10 @@
   {
     "name": "Bardock S",
     "image": "/assets/personagens/bardock-s.jpg",
+    "flips": [
+      "/assets/personagens/flip/bardock-s/",
+      "/assets/personagens/flip/bardock-s/"
+    ],
     "race": "Saiyajin",
     "transform": "ssj",
     "melhor tecnica": "Riot Javelin",
@@ -169,6 +191,10 @@
   {
     "name": "Tora",
     "image": "/assets/personagens/tora.jpg",
+    "flips": [
+      "/assets/personagens/flip/tora/",
+      "/assets/personagens/flip/tora/"
+    ],
     "race": "Saiyajin",
     "transform": "oozaru",
     "melhor tecnica": "Técnicas de soldado Saiyajin",
@@ -179,6 +205,10 @@
   {
     "name": "Fasha",
     "image": "/assets/personagens/fasha.jpg",
+    "flips": [
+      "/assets/personagens/flip/fasha/",
+      "/assets/personagens/flip/fasha/"
+    ],
     "race": "Saiyajin",
     "transform": "oozaru",
     "melhor tecnica": "Técnicas de combate corpo-a-corpo",
@@ -189,6 +219,10 @@
   {
     "name": "Shugesh",
     "image": "/assets/personagens/shugesh.jpg",
+    "flips": [
+      "/assets/personagens/flip/shugesh/",
+      "/assets/personagens/flip/shugesh/"
+    ],
     "race": "Saiyajin",
     "transform": "oozaru",
     "melhor tecnica": "Técnicas de soldado Saiyajin",
@@ -199,6 +233,10 @@
   {
     "name": "Borgos",
     "image": "/assets/personagens/borgos.jpg",
+    "flips": [
+      "/assets/personagens/flip/borgos/",
+      "/assets/personagens/flip/borgos/"
+    ],
     "race": "Saiyajin",
     "transform": "oozaru",
     "melhor tecnica": "Técnicas de batalha padrão",
@@ -209,6 +247,11 @@
   {
     "name": "Broly Z",
     "image": "/assets/personagens/broly-z.jpg",
+    "flips": [
+      "/assets/personagens/flip/broly-z/",
+      "/assets/personagens/flip/broly-z/",
+      "/assets/personagens/flip/broly-z/"
+    ],
     "race": "Saiyajin (Legendary)",
     "transform": "ssj, ssj legendary, ssj full power",
     "melhor tecnica": "Gigantic Meteor",
@@ -219,6 +262,11 @@
   {
     "name": "Broly S",
     "image": "/assets/personagens/broly-s.jpg",
+    "flips": [
+      "/assets/personagens/flip/broly-s/",
+      "/assets/personagens/flip/broly-s/",
+      "/assets/personagens/flip/broly-s/"
+    ],
     "race": "Saiyajin (Legendary)",
     "transform": "base, ssj, ssj full power",
     "melhor tecnica": "Gigantic Roar",
