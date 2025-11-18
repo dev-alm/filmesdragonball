@@ -38,6 +38,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const showRankBtn = document.getElementById("showRankBtn");
 
+  //FORÇA O VÍDEO WPP DO HTML A NÃO PARAR
+  const video = document.getElementById("bgVideo");
+
+  video.addEventListener("loadeddata", () => {
+    video.play().catch(() => {
+      console.log("Autoplay bloqueado, tentando novamente...");
+      setTimeout(() => video.play(), 500);
+    });
+  });
+
   let firstCard = null;
   let lockBoard = false;
   let matched = 0;
@@ -154,19 +164,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const difficulty = document.getElementById("difficulty").value;
     const gameEl = document.getElementById("game");
 
-    // Remove classes antigas antes de aplicar a correta
+    // limpa classes do grid (medium) — será reaplicada se precisar
     gameEl.classList.remove("medium");
 
+    // remove classes de dificuldade no body e reaplica a correta
+    document.body.classList.remove("diff-medium", "diff-hard");
+
     if (difficulty === "medium") {
-      // medium usa só as 6 cartas padrão
+      // medium usa só as cartas padrão
       selectedCards = [...cards];
-
       timeLeft = 30;
-
-      // força 4 colunas sempre
-      gameEl.classList.add("medium");
+      gameEl.classList.add("medium"); // força 4 colunas no grid
+      document.body.classList.add("diff-medium");
     } else if (difficulty === "hard") {
-      // Hard adiciona mais cartas
+      // hard usa conjunto maior
       selectedCards = [
         ...cards,
         { name: "broly", img: "assets/game-memory-img/broly.jpg" },
@@ -178,21 +189,18 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "bills", img: "assets/game-memory-img/bills.jpg" },
         { name: "whis", img: "assets/game-memory-img/whis.jpg" },
       ];
-
-      // +10 segundos
       timeLeft = 60;
-
-      // grid automático → nenhuma classe extra
+      // modo hard usa grid automático (nenhuma classe extra no .game)
+      document.body.classList.add("diff-hard");
     } else {
-      // fallback = medium
+      // fallback
       selectedCards = [...cards];
       timeLeft = 30;
-
       gameEl.classList.add("medium");
+      document.body.classList.add("diff-medium");
     }
 
     timerEl.textContent = "--";
-
     generateBoard();
   }
 
@@ -303,16 +311,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("difficulty").addEventListener("change", startGame);
 
   startGame();
-});
-
-//FORÇA O VÍDEO WPP DO HTML A NÃO PARAR
-const video = document.getElementById("bgVideo");
-
-video.addEventListener("loadeddata", () => {
-  video.play().catch(() => {
-    console.log("Autoplay bloqueado, tentando novamente...");
-    setTimeout(() => video.play(), 500);
-  });
 });
 
 // const cardsData = [

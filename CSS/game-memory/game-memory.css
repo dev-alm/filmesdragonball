@@ -159,10 +159,7 @@ body {
 
 /* Front */
 .card-front {
-  background: radial-gradient(
-    var(--cor-primaria),
-    rgb(255, 72, 0)
-  );
+  background: radial-gradient(var(--cor-primaria), rgb(255, 72, 0));
   z-index: 2;
 }
 
@@ -189,17 +186,6 @@ body {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
 }
 
-/* Responsivo */
-@media (max-width: 640px) {
-  :root {
-    --card-size: 80px;
-  }
-  .hud .timer,
-  .hud .score {
-    font-size: 13px;
-  }
-}
-
 /* Footer */
 .footer-note {
   display: flex;
@@ -207,8 +193,8 @@ body {
   height: 40px;
   font-size: 13px;
   text-align: center;
-  justify-content: center;   /* horizontal */
-  align-items: center;       /* vertical */
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
 }
 
 /* Modal */
@@ -236,4 +222,90 @@ body {
   opacity: 1;
   pointer-events: all;
   visibility: visible;
+}
+
+/* Responsivo */
+@media (max-width: 640px) {
+  :root {
+    --card-size: 80px;
+  }
+  .hud .timer,
+  .hud .score {
+    font-size: 13px;
+  }
+  .container h1 {
+    text-align: center;
+  }
+  .game {
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+  }
+  .card {
+    width: 80px;
+    height: 100px;
+  }
+  /* body.diff-hard .cards-container {
+    grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
+    gap: 6px; 
+  }
+  body.diff-hard .hud .timer,
+  body.diff-hard .hud .score {
+    font-size: 12px; 
+  }
+
+  body.diff-hard .buttons .btn {
+    font-size: 13px;
+    padding: 8px 12px;
+  } */
+}
+
+/* ======== RESPONSIVO ======== */
+@media (max-width: 600px) {
+  .topbar {
+    padding: 10px;
+  }
+  .controls {
+    flex-direction: column; /* 🔥 Tudo em coluna no mobile */
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .difficulty select {
+    width: 100%; /* Select ocupa toda largura */
+    max-width: 280px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .hud {
+    flex-wrap: wrap; /* Permite quebrar linha */
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .hud .timer,
+  .hud .score {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .buttons .btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    width: 120px; /* Evita botão gigante */
+    text-align: center;
+  }
+
+  .topbar h1 {
+    font-size: 20px;
+  }
 }
