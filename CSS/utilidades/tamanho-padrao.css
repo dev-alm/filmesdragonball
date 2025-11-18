@@ -1,6 +1,36 @@
-body {
+/* body {
   background-color: black;
+} */
+
+/* body {
+  position: relative;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("../../assets/poster/migate.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(10px);
+  z-index: -1; 
+} */
+
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+   filter: blur(8px) brightness(0.6);
+}
+
+
+
 
 img {
   display: block;
@@ -10,7 +40,7 @@ img {
 .t-padrao {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: black;
+  /* background-color: black; */
 }
 a {
   color: var(--texto);

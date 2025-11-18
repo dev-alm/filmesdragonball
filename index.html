@@ -3,31 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon/favion.png" type="image/png" />
     <link
       rel="icon"
       href="./imagens/icone-aba-favicon/shenlong.png"
       type="image/png"
     />
     <title>Home</title>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
+
     <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <main class="container">
-      <header class="topbar">
-        <h1>Dragon Memory</h1>
+    <video autoplay muted loop playsinline id="bgVideo">
+      <source src="./assets/video/goku.mp4" type="video/mp4" />
+    </video>
 
+    <header class="t-padrao">
+      <ul class="menu">
+        <li><a class="filmes-fixo" href="./index.html">GAME CARD</a></li>
+        <li><a href="./filmes.html">FILMES</a></li>
+        <!-- <li><a href="./projetos.html">FILMES</a></li> -->
+        <li><a href="./personagens.html">PERSONAGENS</a></li>
+      </ul>
+    </header>
+    <main class="container">
+      <div class="topbar">
         <div class="controls">
           <div class="difficulty">
-            <label>Tempo:</label>
-            <select id="difficulty">
-              <option value="30">Fácil — 30s</option>
-              <option value="20">Médio — 20s</option>
-              <option value="10">Difícil — 10s</option>
+            <label>Dificuldade:</label>
+            <select class="selecionar-dificuldade" id="difficulty">
+              <option value="medium">Médio — 30s e 12 cartas</option>
+              <option value="hard">Difícil — 60s e 28 cartas</option>
             </select>
           </div>
 
@@ -41,19 +48,20 @@
             <button id="showRankBtn" class="btn ghost">Ranking</button>
           </div>
         </div>
-      </header>
+      </div>
+
+      <h1 class="game-title">Dragon Ball Memory</h1>
 
       <section class="game-wrap">
         <div class="game" id="game"></div>
       </section>
-
-      <footer class="footer-note">
-        <small
-          >Imagens e sons: use apenas arquivos que você tenha permissão para
-          usar.</small
-        >
-      </footer>
     </main>
+
+    <footer class="footer-note">
+      <p>
+        Imagens e sons: use apenas arquivos que você tenha permissão para usar.
+      </p>
+    </footer>
 
     <!-- MODAL Vitória -->
     <div class="modal" id="winModal" aria-hidden="true">
@@ -109,6 +117,7 @@
       </div>
     </div>
 
+    <!-- SONS -->
     <audio
       id="sfx-correct"
       src="assets/sounds/correct.mp3"
@@ -118,11 +127,7 @@
     <audio id="sfx-win" src="assets/sounds/win.mp3" preload="auto"></audio>
     <audio id="sfx-lose" src="assets/sounds/lose.mp3" preload="auto"></audio>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        initMemoryGame();
-      });
-    </script>
+    <!-- ORDEM CORRETA DOS SCRIPTS -->
     <script src="./js/memory.js"></script>
     <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>

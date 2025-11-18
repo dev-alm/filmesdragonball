@@ -5,8 +5,12 @@
   --accent-2: #ef4444;
   --glass: rgba(255, 255, 255, 0.06);
   --muted: #94a3b8;
+
+  /* Novo: tamanho das cartas controlado via variável */
+  --card-size: 140px;
 }
 
+/* Reset e base */
 * {
   box-sizing: border-box;
 }
@@ -15,7 +19,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: Inter, system-ui, sans-serif;
-  background: linear-gradient(180deg, #071024 0%, var(--bg) 100%);
+  /* background: black; */
   color: #e6eef6;
 }
 
@@ -28,13 +32,13 @@ body {
   gap: 18px;
 }
 
-/* Topbar */
+/* Topbar e HUD */
 .topbar {
   width: 100%;
   max-width: 980px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 12px;
 }
 .topbar h1 {
@@ -52,8 +56,8 @@ body {
   padding: 8px;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.06);
-  background: var(--glass);
-  color: white;
+  background: black;
+  color: var(--cor-primaria);
 }
 .hud {
   display: flex;
@@ -69,9 +73,9 @@ body {
   color: var(--muted);
 }
 
-/* Buttons */
+/* Botões */
 .btn {
-  background: var(--accent);
+  background: var(--cor-primaria);
   border: none;
   padding: 8px 12px;
   border-radius: 10px;
@@ -95,89 +99,100 @@ body {
   width: 100%;
   max-width: 980px;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
+
+/* NOVO GRID RESPONSIVO PARA QUALQUER QUANTIDADE DE CARTAS */
 .game {
+  width: 100%;
   width: 420px;
-  height: 420px;
+  height: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(7, 1fr);
   gap: 12px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
+  justify-content: center;
   padding: 18px;
+  align-items: center;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.6),
-    inset 0 -6px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* Card */
+/* Layout fixo de 4 por fileira — medium */
+.game.medium {
+  grid-template-columns: repeat(4, 1fr) !important;
+}
+
+/* Cartas */
 .card {
+  position: relative;
+  width: var(--card-size);
+  height: calc(var(--card-size) * 1.3);
+  cursor: pointer;
+  border-radius: 12px;
+  perspective: 1000px;
+}
+
+.card-inner {
   position: relative;
   width: 100%;
   height: 100%;
-  min-height: 80px;
-  min-width: 80px;
-  cursor: pointer;
-  border-radius: 12px;
   transform-style: preserve-3d;
-  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-  background: var(--card);
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+  transition: transform 0.5s ease-in-out;
 }
-.card.disabled {
-  pointer-events: none;
-  opacity: 0.9;
-}
-.card.flip {
+
+.card.flip .card-inner {
   transform: rotateY(180deg);
 }
 
-/* faces */
-.face {
+.card-face {
   position: absolute;
-  inset: 0;
+  width: 100%;
+  height: 100%;
   border-radius: 12px;
   backface-visibility: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
 }
-.front {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.02),
-    rgba(255, 255, 255, 0.01)
+
+/* Front */
+.card-front {
+  background: radial-gradient(
+    var(--cor-primaria),
+    rgb(255, 72, 0)
   );
   z-index: 2;
 }
-.back {
+
+/* Back */
+.card-back {
   transform: rotateY(180deg);
   background-size: cover;
   background-position: center;
 }
 
-/* small decorations */
-.front::after {
+.card-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* preenche toda a div sem distorcer */
+  display: block;
+}
+
+/* Small decoration */
+.card-front::after {
   content: "";
   position: absolute;
   inset: 6px;
   border-radius: 8px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
 }
-/* responsive */
+
+/* Responsivo */
 @media (max-width: 640px) {
-  .game {
-    width: 92vw;
-    height: 92vw;
-    gap: 8px;
-  }
-  .topbar {
-    gap: 8px;
+  :root {
+    --card-size: 80px;
   }
   .hud .timer,
   .hud .score {
@@ -185,121 +200,40 @@ body {
   }
 }
 
-/* MODALs */
+/* Footer */
+.footer-note {
+  display: flex;
+  color: var(--muted);
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  justify-content: center;   /* horizontal */
+  align-items: center;       /* vertical */
+}
+
+/* Modal */
 .modal {
   position: fixed;
   inset: 0;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(2, 6, 23, 0.6);
-  z-index: 120;
+  background: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
 }
+
 .modal[aria-hidden="false"] {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal.show {
   display: flex;
-  animation: modalIn 0.28s ease both;
-}
-@keyframes modalIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.modal-card {
-  width: 92%;
-  max-width: 420px;
-  padding: 20px;
-  border-radius: 12px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.03),
-    rgba(255, 255, 255, 0.02)
-  );
-  box-shadow: 0 12px 40px rgba(2, 6, 23, 0.6);
-  text-align: center;
-}
-.modal-card.win {
-  border-top: 4px solid var(--accent);
-}
-.modal-card.lose {
-  border-top: 4px solid var(--accent-2);
-}
-.modal-card.rank {
-  border-top: 4px solid #f59e0b;
-}
-
-.modal-card h2 {
-  margin: 0 0 8px 0;
-}
-.modal-card p {
-  color: var(--muted);
-  margin: 6px 0 14px;
-}
-.modal-actions {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  margin-top: 12px;
-}
-.modal-card input {
-  width: 100%;
-  padding: 8px;
-  border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.04);
-  background: transparent;
-  color: white;
-  margin-top: 8px;
-}
-
-/* ranking table */
-.ranking-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 8px;
-  background: transparent;
-}
-.ranking-table th,
-.ranking-table td {
-  padding: 8px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-  text-align: left;
-  color: var(--muted);
-}
-.ranking-table thead th {
-  color: white;
-}
-
-/* subtle confetti animation (win) */
-@keyframes pop {
-  0% {
-    transform: translateY(0) scale(0.8);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-8px) scale(1);
-    opacity: 0;
-  }
-}
-.winConfetti {
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--accent);
-  animation: pop 0.9s linear infinite;
-}
-
-/* footer */
-.footer-note {
-  color: var(--muted);
-  font-size: 13px;
-  margin-top: 6px;
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
 }
