@@ -1,3 +1,13 @@
+.btn-home {
+top: -60px;
+right: 20px;
+}
+
+.btn-filmes {
+top: 250px;
+right: 35px;
+}
+
 .arcade-container {
   display: flex;
   gap: 20px;          /* espaçamento entre os botões */
@@ -29,6 +39,9 @@
 }
 .btn-03 {
   background-color: var(--cor-btn-03)
+}
+.btn-04 {
+  background-color: var(--cor-btn-04)
 }
 
 .circle {

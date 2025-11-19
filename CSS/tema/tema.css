@@ -23,6 +23,7 @@
   --cor-btn-01: rgb(0, 255, 0);
   --cor-btn-02: #00edf5;
   --cor-btn-03: #cc00f5;
+  --cor-btn-04: rgb(255, 123, 0);
 }
 
 @media (prefers-color-scheme: dark) {

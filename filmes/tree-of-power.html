@@ -17,6 +17,21 @@
   </head>
 
   <body>
+    <video autoplay muted loop playsinline id="bgVideo">
+      <source src="../assets/video/goku.mp4" type="video/mp4" />
+    </video>
+
+    <div class="arcade-container">
+      <div class="btn-container btn-filmes">
+        <div class="circle arcade-btn-background btn-04"></div>
+        <button
+          id="mostrarVideo"
+          class="arcade-btn"
+          onclick="play('/media/sounds/som1.mp3')"
+        ></button>
+      </div>
+    </div> 
+
     <header class="t-padrao">
       <ul class="menu">
         <li><a href="/index.html">CARD GAME</a></li>
@@ -25,6 +40,11 @@
         <li><a href="/personagens.html">PERSONAGENS</a></li>
       </ul>
     </header>
+
+    <div class="gogeta-container">
+      <img class="gogeta-img" src="../assets/personagens/detalhes/gogeta-ssj.png" alt="">
+    </div>
+
     <nav class="t-padrao projetos-introducao">
       <div class="introducao-itens fadeInDown" data-anime="100">
         <h1 class="p-dragonballh1">Filmes Dragon Ball</h1>
@@ -62,34 +82,37 @@
 
         <div class="projetos-conteudo">
           <h2 class="fadeInDown" data-anime="500">
-    Dragon Ball Z: A Árvore do Poder
-  </h2>
-  <p
-    class="fadeInDown"
-    data-anime="500"
-    style="color: var(--cor-primaria)"
-  >
-    地球まるごと超決戦
-  </p>
-  <div class="projetos-descricao fadeInDown" data-anime="700">
-    <p>SINOPSE:</p>
-    <p>
-      Um grupo de guerreiros liderados por Turles chega à Terra e planta a
-      poderosa Árvore do Poder, uma árvore capaz de sugar toda a energia vital
-      do planeta para produzir frutos que concedem força divina a quem os come.
-      Cabe a Goku e seus amigos impedir que Turles destrua a Terra e absorva
-      todo o seu poder.
-    </p>
-  </div>
-  <div class="projetos-lista fadeInDown" data-anime="900">
-    <ul>
-      <li>INFORMAÇÕES</li>
-      <li>data japão-brasil <span>07/07/1990 - 1996 (exibição no Brasil)</span></li>
-      <li>duração<span>60 minutos</span></li>
-      <li>gênero<span>Ação, Aventura, Fantasia</span></li>
-      <li>classificação<span>Livre para todos os públicos</span></li>
-    </ul>
-  </div>
+            Dragon Ball Z: A Árvore do Poder
+          </h2>
+          <p
+            class="fadeInDown"
+            data-anime="500"
+            style="color: var(--cor-primaria)"
+          >
+            地球まるごと超決戦
+          </p>
+          <div class="projetos-descricao fadeInDown" data-anime="700">
+            <p>SINOPSE:</p>
+            <p>
+              Um grupo de guerreiros liderados por Turles chega à Terra e planta
+              a poderosa Árvore do Poder, uma árvore capaz de sugar toda a
+              energia vital do planeta para produzir frutos que concedem força
+              divina a quem os come. Cabe a Goku e seus amigos impedir que
+              Turles destrua a Terra e absorva todo o seu poder.
+            </p>
+          </div>
+          <div class="projetos-lista fadeInDown" data-anime="900">
+            <ul>
+              <li>INFORMAÇÕES</li>
+              <li>
+                data japão-brasil
+                <span>07/07/1990 - 1996 (exibição no Brasil)</span>
+              </li>
+              <li>duração<span>60 minutos</span></li>
+              <li>gênero<span>Ação, Aventura, Fantasia</span></li>
+              <li>classificação<span>Livre para todos os públicos</span></li>
+            </ul>
+          </div>
 
           <div class="projetos-links">
             <a

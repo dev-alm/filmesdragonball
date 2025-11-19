@@ -1,0 +1,25 @@
+.gogeta-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.gogeta-img {
+  position: absolute;
+  width: 300px; /* ajuste como quiser */
+  height: 600px; /* ajuste como quiser */
+  top: 350px;
+}
+
+@media (max-width: 1000px) {
+  .gogeta-container {
+    display: none;
+  }
+  .gogeta-img {
+    display: none;
+  }
+  .arcade-container {
+    display: none;
+  }
+}
