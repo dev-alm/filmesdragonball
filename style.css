@@ -38,6 +38,13 @@
 /*Game Memory*/
 @import url(./CSS/game-memory/game-memory.css);
 
+/*BOTÕES*/
+@import url(./componentes/botao-arcade/css/botoes.css);
+@import url(./componentes/botao-arcade/css/girar-tela-360.css);
+@import url(./componentes/botao-arcade/css/mostrar-video.css);
+
+
+
 
 
 https://www.linkedin.com/in/gustavo-almeida-390359266/   target="_blank"

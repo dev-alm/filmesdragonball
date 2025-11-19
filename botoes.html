@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./imagens/icone-aba-favicon/shenlong.png"
+      type="image/png"
+    />
+    <title>Projetos</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="t-padrao">
+      <ul class="menu">
+        <li><a href="./index.html">SOBRE MIM</a></li>
+        <li><a class="filmes-fixo" href="./projetos.html">FILMES</a></li>
+        <li><a href="./contato.html">CONTATO</a></li>
+        <li><a href="./layout.html">LAYOUT</a></li>
+      </ul>
+    </header>
+
+    <div class="arcade-container">
+      <div class="btn-container">
+        <div class="circle arcade-btn-background btn-01"></div>
+        <button
+          id="mostrarVideo"
+          class="arcade-btn"
+          onclick="play('/media/sounds/som1.mp3')"
+        ></button>
+      </div>
+
+      <div class="btn-container">
+        <div class="circle arcade-btn-background btn-02"></div>
+        <button
+          id="girar"
+          class="arcade-btn"
+          onclick="play('/media/sounds/som2.mp3')"
+        ></button>
+      </div>
+
+      <div class="btn-container">
+        <div class="circle arcade-btn-background btn-03"></div>
+        <button
+          id="girar2"
+          class="arcade-btn"
+          onclick="play('/media/sounds/som3.mp3')"
+        ></button>
+      </div>
+    </div>
+
+    <div id="box-video">
+      <video id="video" src="assets/video/goku.mp4"></video>
+    </div>
+    <div id="tela" class="tela"></div>
+
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./componentes/botao-arcade/javascript/animacoes.js"></script>
+  </body>
+</html>

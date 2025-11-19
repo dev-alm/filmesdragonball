@@ -16,10 +16,13 @@
   --icone: #ffffff;
   --degrade: radial-gradient(
     circle,
-    rgba(41, 0, 107, 0.815),
-    rgba(15, 0, 58, 0.973)
+    rgba(21, 255, 0, 0.815),
+    rgba(132, 0, 255, 0.973)
     
   );
+  --cor-btn-01: rgb(0, 255, 0);
+  --cor-btn-02: #00edf5;
+  --cor-btn-03: #cc00f5;
 }
 
 @media (prefers-color-scheme: dark) {
