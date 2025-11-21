@@ -120,9 +120,9 @@
     "name": "Raditz",
     "image": "/assets/personagens/raditz.jpg",
     "flips": [
-      "/assets/personagens/flip/raditz/",
-      "/assets/personagens/flip/raditz/",
-      "/assets/personagens/flip/raditz/"
+      "/assets/personagens/flip/raditz/raditz-1.jpg",
+      "/assets/personagens/flip/raditz/raditz-2.jpg",
+      "/assets/personagens/flip/raditz/raditz-3.jpg"
     ],
     "race": "Saiyajin",
     "transform": "oozaru",
@@ -135,9 +135,9 @@
     "name": "Nappa",
     "image": "/assets/personagens/nappa.jpg",
     "flips": [
-      "/assets/personagens/flip/nappa/",
-      "/assets/personagens/flip/nappa/",
-      "/assets/personagens/flip/nappa/"
+      "/assets/personagens/flip/nappa/nappa-1.jpg",
+      "/assets/personagens/flip/nappa/nappa-2.jpg",
+      "/assets/personagens/flip/nappa/nappa-3.jpg"
     ],
     "race": "Saiyajin",
     "transform": "oozaru",
@@ -150,8 +150,8 @@
     "name": "King Vegeta",
     "image": "/assets/personagens/king-vegeta.jpg",
     "flips": [
-      "/assets/personagens/flip/king-vegeta/",
-      "/assets/personagens/flip/king-vegeta/"
+      "/assets/personagens/flip/king-vegeta/king-vegeta-1.jpg",
+      "/assets/personagens/flip/king-vegeta/king-vegeta-2.jpg"
     ],
     "race": "Saiyajin",
     "transform": "oozaru",
@@ -164,8 +164,9 @@
     "name": "Bardock Z",
     "image": "/assets/personagens/bardock-z.jpg",
     "flips": [
-      "/assets/personagens/flip/bardock-z/",
-      "/assets/personagens/flip/bardock-z/"
+      "/assets/personagens/flip/bardock-z/bardock-z-1.jpg",
+      "/assets/personagens/flip/bardock-z/bardock-z-2.jpg",
+      "/assets/personagens/flip/bardock-z/bardock-z-3.jpg"
     ],
     "race": "Saiyajin",
     "transform": "ssj",
@@ -178,8 +179,9 @@
     "name": "Bardock S",
     "image": "/assets/personagens/bardock-s.jpg",
     "flips": [
-      "/assets/personagens/flip/bardock-s/",
-      "/assets/personagens/flip/bardock-s/"
+      "/assets/personagens/flip/bardock-s/bardock-s-1.jpg",
+      "/assets/personagens/flip/bardock-s/bardock-s-2.jpg",
+      "/assets/personagens/flip/bardock-s/bardock-s-3.jpg"
     ],
     "race": "Saiyajin",
     "transform": "ssj",
@@ -248,9 +250,9 @@
     "name": "Broly Z",
     "image": "/assets/personagens/broly-z.jpg",
     "flips": [
-      "/assets/personagens/flip/broly-z/",
-      "/assets/personagens/flip/broly-z/",
-      "/assets/personagens/flip/broly-z/"
+      "/assets/personagens/flip/broly-z/broly-z-1.jpg",
+      "/assets/personagens/flip/broly-z/broly-z-2.jpg",
+      "/assets/personagens/flip/broly-z/broly-z-3.jpg"
     ],
     "race": "Saiyajin (Legendary)",
     "transform": "ssj, ssj legendary, ssj full power",
@@ -263,9 +265,10 @@
     "name": "Broly S",
     "image": "/assets/personagens/broly-s.jpg",
     "flips": [
-      "/assets/personagens/flip/broly-s/",
-      "/assets/personagens/flip/broly-s/",
-      "/assets/personagens/flip/broly-s/"
+      "/assets/personagens/flip/broly-s/broly-s-1.jpg",
+      "/assets/personagens/flip/broly-s/broly-s-2.jpg",
+      "/assets/personagens/flip/broly-s/broly-s-3.jpg",
+      "/assets/personagens/flip/broly-s/broly-s-4.jpg"
     ],
     "race": "Saiyajin (Legendary)",
     "transform": "base, ssj, ssj full power",
@@ -277,6 +280,10 @@
   {
     "name": "Paragus",
     "image": "/assets/personagens/paragus.jpg",
+    "flips": [
+      "/assets/personagens/flip/paragus/paragus-1.jpg",
+      "/assets/personagens/flip/paragus/paragus-2.jpg"
+    ],
     "race": "Saiyajin",
     "transform": "",
     "melhor tecnica": "Táticas e controle sobre Broly",
@@ -287,6 +294,10 @@
   {
     "name": "Turles",
     "image": "/assets/personagens/turles.jpg",
+    "flips": [
+      "/assets/personagens/flip/turles/turles-1.jpg",
+      "/assets/personagens/flip/turles/turles-2.jpg"
+    ],
     "race": "Saiyajin",
     "transform": "ssj",
     "melhor tecnica": "Tree of Might seed",
@@ -297,6 +308,11 @@
   {
     "name": "Cabba",
     "image": "/assets/personagens/cabba.jpg",
+    "flips": [
+      "/assets/personagens/flip/cabba/cabba-1.jpg",
+      "/assets/personagens/flip/cabba/cabba-2.jpg",
+      "/assets/personagens/flip/cabba/cabba-3.jpg"
+    ],
     "race": "Saiyajin (Universo 6)",
     "transform": "ssj",
     "melhor tecnica": "Kikōken",
@@ -307,6 +323,11 @@
   {
     "name": "Caulifla",
     "image": "/assets/personagens/caulifla.jpg",
+    "flips": [
+      "/assets/personagens/flip/broly-z/broly-z-1.jpg",
+      "/assets/personagens/flip/broly-z/broly-z-2.jpg",
+      "/assets/personagens/flip/broly-z/broly-z-3.jpg"
+    ],
     "race": "Saiyajin (Universo 6)",
     "transform": "ssj, ssj2",
     "melhor tecnica": "Explosive Ki Attack",
@@ -317,6 +338,11 @@
   {
     "name": "Kale",
     "image": "/assets/personagens/kale.jpg",
+    "flips": [
+      "/assets/personagens/flip/broly-z/broly-z-1.jpg",
+      "/assets/personagens/flip/broly-z/broly-z-2.jpg",
+      "/assets/personagens/flip/broly-z/broly-z-3.jpg"
+    ],
     "race": "Saiyajin (Universo 6)",
     "transform": "ssj legendary",
     "melhor tecnica": "Berserk Energy Barrage",
