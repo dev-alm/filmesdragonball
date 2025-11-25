@@ -282,7 +282,8 @@
     "image": "/assets/personagens/paragus.jpg",
     "flips": [
       "/assets/personagens/flip/paragus/paragus-1.jpg",
-      "/assets/personagens/flip/paragus/paragus-2.jpg"
+      "/assets/personagens/flip/paragus/paragus-2.jpg",
+      "/assets/personagens/flip/paragus/paragus-3.jpg"
     ],
     "race": "Saiyajin",
     "transform": "",
@@ -296,7 +297,8 @@
     "image": "/assets/personagens/turles.jpg",
     "flips": [
       "/assets/personagens/flip/turles/turles-1.jpg",
-      "/assets/personagens/flip/turles/turles-2.jpg"
+      "/assets/personagens/flip/turles/turles-2.jpg",
+      "/assets/personagens/flip/turles/turles-3.jpg"
     ],
     "race": "Saiyajin",
     "transform": "ssj",
@@ -311,7 +313,8 @@
     "flips": [
       "/assets/personagens/flip/cabba/cabba-1.jpg",
       "/assets/personagens/flip/cabba/cabba-2.jpg",
-      "/assets/personagens/flip/cabba/cabba-3.jpg"
+      "/assets/personagens/flip/cabba/cabba-3.jpg",
+      "/assets/personagens/flip/cabba/cabba-4.jpg"
     ],
     "race": "Saiyajin (Universo 6)",
     "transform": "ssj",
@@ -324,9 +327,10 @@
     "name": "Caulifla",
     "image": "/assets/personagens/caulifla.jpg",
     "flips": [
-      "/assets/personagens/flip/broly-z/broly-z-1.jpg",
-      "/assets/personagens/flip/broly-z/broly-z-2.jpg",
-      "/assets/personagens/flip/broly-z/broly-z-3.jpg"
+      "/assets/personagens/flip/caulifla/caulifla-1.jpg",
+      "/assets/personagens/flip/caulifla/caulifla-2.jpg",
+      "/assets/personagens/flip/caulifla/caulifla-3.jpg",
+      "/assets/personagens/flip/caulifla/caulifla-4.jpg"
     ],
     "race": "Saiyajin (Universo 6)",
     "transform": "ssj, ssj2",
@@ -339,12 +343,12 @@
     "name": "Kale",
     "image": "/assets/personagens/kale.jpg",
     "flips": [
-      "/assets/personagens/flip/broly-z/broly-z-1.jpg",
-      "/assets/personagens/flip/broly-z/broly-z-2.jpg",
-      "/assets/personagens/flip/broly-z/broly-z-3.jpg"
+      "/assets/personagens/flip/kale/kale-1.jpg",
+      "/assets/personagens/flip/kale/kale-2.jpg",
+      "/assets/personagens/flip/kale/kale-3.jpg"
     ],
     "race": "Saiyajin (Universo 6)",
-    "transform": "ssj legendary",
+    "transform": "ssj Berseker, ssj2 (controle do berseker)",
     "melhor tecnica": "Berserk Energy Barrage",
     "planetaNatal": "Planeta Sadala",
     "descricao": "Saiyajin de altíssimo poder latente no Universo 6; transforma-se em forma lendária ao perder o controle.",
@@ -353,6 +357,11 @@
   {
     "name": "Renso",
     "image": "/assets/personagens/renso.jpg",
+    "flips": [
+      "/assets/personagens/flip/renso/renso-1.jpg",
+      "/assets/personagens/flip/renso/renso-2.jpg",
+      "/assets/personagens/flip/renso/renso-3.jpg"
+    ],
     "race": "Saiyajin (Universo 6)",
     "transform": "",
     "melhor tecnica": "Técnicas de soldado e liderança",
@@ -361,8 +370,43 @@
     "nomeJapones": "レンソウ"
   },
   {
-    "name": "Pan",
+    "name": "Pan Z",
+    "image": "/assets/personagens/pan-z.jpg",
+    "flips": [
+      "/assets/personagens/flip/pan-z/pan-1.jpg",
+      "/assets/personagens/flip/pan-z/pan-2.jpg",
+      "/assets/personagens/flip/pan-z/pan-3.gif"
+    ],
+    "race": "Híbrido Saiyajin",
+    "transform": "ssj",
+    "melhor tecnica": "Instinto de luta",
+    "planetaNatal": "Terra",
+    "descricao": "Filha de Gohan e Videl, neta de Goku — personagem jovem que carrega sangue Saiyajin na linhagem.",
+    "nomeJapones": "パン"
+  },
+  {
+    "name": "Pan GT",
     "image": "/assets/personagens/pan-gt.jpg",
+    "flips": [
+      "/assets/personagens/flip/pan-gt/pan-1.jpg",
+      "/assets/personagens/flip/pan-gt/pan-2.jpg",
+      "/assets/personagens/flip/pan-gt/pan-3.gif"
+    ],
+    "race": "Híbrido Saiyajin",
+    "transform": "ssj",
+    "melhor tecnica": "Instinto de luta",
+    "planetaNatal": "Terra",
+    "descricao": "Filha de Gohan e Videl, neta de Goku — personagem jovem que carrega sangue Saiyajin na linhagem.",
+    "nomeJapones": "パン"
+  },
+  {
+    "name": "Pan S",
+    "image": "/assets/personagens/pan-s.jpg",
+    "flips": [
+      "/assets/personagens/flip/pan-s/pan-1.jpg",
+      "/assets/personagens/flip/pan-s/pan-2.jpg",
+      "/assets/personagens/flip/pan-s/pan-3.jpg"
+    ],
     "race": "Híbrido Saiyajin",
     "transform": "ssj",
     "melhor tecnica": "Instinto de luta",
@@ -373,6 +417,10 @@
   {
     "name": "Bulla-gt",
     "image": "/assets/personagens/bulla-gt.jpg",
+    "flips": [
+      "/assets/personagens/flip/bulla-gt/bulla-1.jpg",
+      "/assets/personagens/flip/bulla-gt/bulla-2.jpg"
+    ],
     "race": "Híbrido Saiyajin",
     "transform": "",
     "melhor tecnica": "—",
@@ -383,6 +431,10 @@
   {
     "name": "Bulla-s",
     "image": "/assets/personagens/bulla-s.jpg",
+    "flips": [
+      "/assets/personagens/flip/bulla-s/bulla-1.jpg",
+      "/assets/personagens/flip/bulla-s/bulla-2.jpg"
+    ],
     "race": "Híbrido Saiyajin",
     "transform": "",
     "melhor tecnica": "—",
@@ -393,6 +445,11 @@
   {
     "name": "Future Gohan",
     "image": "/assets/personagens/future-gohan.jpg",
+    "flips": [
+      "/assets/personagens/flip/future-gohan/future-gohan-1.jpg",
+      "/assets/personagens/flip/future-gohan/future-gohan-2.jpg",
+      "/assets/personagens/flip/future-gohan/future-gohan-3.jpg"
+    ],
     "race": "Híbrido Saiyajin",
     "transform": "ssj2, ultimate",
     "melhor tecnica": "Masenko",
@@ -403,6 +460,11 @@
   {
     "name": "Kid Goku",
     "image": "/assets/personagens/goku-kid.jpg",
+    "flips": [
+      "/assets/personagens/flip/kid-goku/kid-goku-1.jpg",
+      "/assets/personagens/flip/kid-goku/kid-goku-2.jpg",
+      "/assets/personagens/flip/kid-goku/kid-goku-3.jpg"
+    ],
     "race": "Saiyajin",
     "transform": "oozaru",
     "melhor tecnica": "Kamehameha",
@@ -413,6 +475,10 @@
   {
     "name": "Shallot",
     "image": "/assets/personagens/shallot.jpg",
+    "flips": [
+      "/assets/personagens/flip/shallot/shallot-1.jpg",
+      "/assets/personagens/flip/shallot/shallot-2.jpg"
+    ],
     "race": "Saiyajin (Antigo)",
     "transform": "ssj, ssj2, ssj3, god saiyan",
     "melhor tecnica": "Wild Cannon",
@@ -423,6 +489,11 @@
   {
     "name": "Goku Jr.",
     "image": "/assets/personagens/goku-jr.jpg",
+    "flips": [
+      "/assets/personagens/flip/goku-jr/goku-jr-1.jpg",
+      "/assets/personagens/flip/goku-jr/goku-jr-2.jpg",
+      "/assets/personagens/flip/goku-jr/goku-jr-3.jpg"
+    ],
     "race": "Híbrido Saiyajin-Humano",
     "transform": "ssj",
     "melhor tecnica": "Kamehameha",
@@ -433,6 +504,11 @@
   {
     "name": "Vegeta Jr.",
     "image": "/assets/personagens/vegeta-jr.jpg",
+    "flips": [
+      "/assets/personagens/flip/vegeta-jr/vegeta-jr-1.jpg",
+      "/assets/personagens/flip/vegeta-jr/vegeta-jr-2.jpg",
+      "/assets/personagens/flip/vegeta-jr/vegeta-jr-3.jpg"
+    ],
     "race": "Híbrido Saiyajin-Humano",
     "transform": "ssj",
     "melhor tecnica": "Galick Gun",
