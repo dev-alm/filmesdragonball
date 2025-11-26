@@ -9,7 +9,7 @@
   position: absolute;
   width: 300px; /* ajuste como quiser */
   height: 600px; /* ajuste como quiser */
-  top: 350px;
+  top: 280px;
 }
 
 @media (max-width: 1000px) {
