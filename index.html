@@ -4,11 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./assets/favicon/favion.png" type="image/png" />
-    <link
-      rel="icon"
-      href="./assets/favicon/favion.png"
-      type="image/png"
-    />
+    <link rel="icon" href="./assets/favicon/favion.png" type="image/png" />
     <title>Home</title>
 
     <link rel="stylesheet" href="./style.css" />
@@ -28,7 +24,7 @@
       </ul>
     </header>
 
-<div class="arcade-container">
+    <div class="arcade-container">
       <div class="btn-container btn-home">
         <div class="circle arcade-btn-background btn-04"></div>
         <button
@@ -37,7 +33,7 @@
           onclick="play('/media/sounds/som1.mp3')"
         ></button>
       </div>
-    </div>    
+    </div>
 
     <main class="container">
       <div class="topbar">
@@ -139,9 +135,15 @@
     <audio id="sfx-win" src="assets/sounds/win.mp3" preload="auto"></audio>
     <audio id="sfx-lose" src="assets/sounds/lose.mp3" preload="auto"></audio>
 
+    <div id="cookie-box" class="cookie-box">
+      <p>Usamos cookies para melhorar sua experiência no site.</p>
+      <button id="cookie-accept">Aceitar</button>
+    </div>
+
     <!-- ORDEM CORRETA DOS SCRIPTS -->
     <script src="./js/memory.js"></script>
     <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/cookies.js"></script>
     <script src="./js/script.js"></script>
     <script src="./componentes/botao-arcade/javascript/animacoes.js"></script>
   </body>

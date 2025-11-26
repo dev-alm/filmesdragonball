@@ -3,11 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      href="./assets/favicon/favion.png"
-      type="image/png"
-    />
+    <link rel="icon" href="./assets/favicon/favion.png" type="image/png" />
     <title>Projetos</title>
     <script
       type="text/javascript"
@@ -54,30 +50,48 @@
 
     <!-- Overlay -->
     <div class="overlay-personagem-new hidden-new">
-  <div class="overlay-fundo"></div>
+      <div class="overlay-fundo"></div>
 
-  <div class="cards-centrais-new">
-    <!-- Card prisma -->
-    <div class="card-detalhe card-flip">
-      <button class="seta seta-esquerda" aria-label="Anterior"><img class="icon-seta" src="./assets/icones-setas/seta-esquerda.png" alt=""></button>
+      <div class="cards-centrais-new">
+        <!-- Card prisma -->
+        <div class="card-detalhe card-flip">
+          <button class="seta seta-esquerda" aria-label="Anterior">
+            <img
+              class="icon-seta"
+              src="./assets/icones-setas/seta-esquerda.png"
+              alt=""
+            />
+          </button>
 
-      <div class="flip-prisma">
-        <!-- imagens inseridas dinamicamente aqui -->
+          <div class="flip-prisma">
+            <!-- imagens inseridas dinamicamente aqui -->
+          </div>
+
+          <button class="seta seta-direita" aria-label="Próximo">
+            <img
+              class="icon-seta"
+              src="./assets/icones-setas/seta-direita.png"
+              alt=""
+            />
+          </button>
+        </div>
+
+        <!-- Card info -->
+        <div class="card-detalhe card-info">
+          <button class="fechar-overlay-new">✕</button>
+          <h2 class="nome-personagem-new"></h2>
+          <p class="info-personagem-new"></p>
+        </div>
       </div>
-
-      <button class="seta seta-direita" aria-label="Próximo"><img class="icon-seta" src="./assets/icones-setas/seta-direita.png" alt=""></button>
     </div>
 
-    <!-- Card info -->
-    <div class="card-detalhe card-info">
-      <button class="fechar-overlay-new">✕</button>
-      <h2 class="nome-personagem-new"></h2>
-      <p class="info-personagem-new"></p>
+    <div id="cookie-box" class="cookie-box">
+      <p>Usamos cookies para melhorar sua experiência no site.</p>
+      <button id="cookie-accept">Aceitar</button>
     </div>
-  </div>
-</div>
 
     <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/cookies.js"></script>
     <script src="./js/personagens.js"></script>
   </body>
 </html>
