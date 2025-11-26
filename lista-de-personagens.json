@@ -50,15 +50,15 @@
     "nomeJapones": "孫 悟天"
   },
   {
-  "name": "Trunks Kid",
-  "image": "/assets/personagens/trunks-kid.jpg",
-  "race": "Híbrido Saiyajin",
-  "transform": "ssj",
-  "melhor tecnica": "Burning Attack",
-  "planetaNatal": "Terra",
-  "descricao": "Filho de Vegeta e Bulma na infância; curioso e determinado, treina com seu pai e participa de pequenas aventuras, ainda sem dominar totalmente suas habilidades.",
-  "nomeJapones": "トランクス"
-},
+    "name": "Trunks Kid",
+    "image": "/assets/personagens/trunks-kid.jpg",
+    "race": "Híbrido Saiyajin",
+    "transform": "ssj",
+    "melhor tecnica": "Burning Attack",
+    "planetaNatal": "Terra",
+    "descricao": "Filho de Vegeta e Bulma na infância; curioso e determinado, treina com seu pai e participa de pequenas aventuras, ainda sem dominar totalmente suas habilidades.",
+    "nomeJapones": "トランクス"
+  },
   {
     "name": "Future Trunks",
     "image": "/assets/personagens/future-trunks.jpg",
@@ -170,25 +170,25 @@
     "nomeJapones": "ボルゴス"
   },
   {
-  "name": "Broly Z",
-  "image": "/assets/personagens/broly-z.jpg",
-  "race": "Saiyajin (Legendary)",
-  "transform": "ssj, ssj legendary, ssj full power",
-  "melhor tecnica": "Gigantic Meteor",
-  "planetaNatal": "Planeta Vegeta",
-  "descricao": "Versão clássica do lendário Super Saiyajin dos filmes de Dragon Ball Z; movido pelo ódio a Goku e com poder devastador fora de controle.",
-  "nomeJapones": "ブロリー"
-},
-{
-  "name": "Broly S",
-  "image": "/assets/personagens/broly-s.jpg",
-  "race": "Saiyajin (Legendary)",
-  "transform": "base, ssj, ssj full power",
-  "melhor tecnica": "Gigantic Roar",
-  "planetaNatal": "Planeta Vampa",
-  "descricao": "Versão reimaginada no filme Dragon Ball Super: Broly; um guerreiro puro e poderoso criado em um planeta hostil, que luta contra Goku e Vegeta.",
-  "nomeJapones": "ブロリー（超）"
-},
+    "name": "Broly Z",
+    "image": "/assets/personagens/broly-z.jpg",
+    "race": "Saiyajin (Legendary)",
+    "transform": "ssj, ssj legendary, ssj full power",
+    "melhor tecnica": "Gigantic Meteor",
+    "planetaNatal": "Planeta Vegeta",
+    "descricao": "Versão clássica do lendário Super Saiyajin dos filmes de Dragon Ball Z; movido pelo ódio a Goku e com poder devastador fora de controle.",
+    "nomeJapones": "ブロリー"
+  },
+  {
+    "name": "Broly S",
+    "image": "/assets/personagens/broly-s.jpg",
+    "race": "Saiyajin (Legendary)",
+    "transform": "base, ssj, ssj full power",
+    "melhor tecnica": "Gigantic Roar",
+    "planetaNatal": "Planeta Vampa",
+    "descricao": "Versão reimaginada no filme Dragon Ball Super: Broly; um guerreiro puro e poderoso criado em um planeta hostil, que luta contra Goku e Vegeta.",
+    "nomeJapones": "ブロリー（超）"
+  },
   {
     "name": "Paragus",
     "image": "/assets/personagens/paragus.jpg",
@@ -306,7 +306,7 @@
     "transform": "ssj, ssj2, ssj3, god saiyan",
     "melhor tecnica": "Wild Cannon",
     "planetaNatal": "Planeta Vegeta (Era Antiga)",
-    "descricao": "Shallot é um personagem Saiyajin protagonista de Dragon Ball Legends, um jogo mobile de luta, com design de Akira Toriyama. Ele é um Saiyajin antigo do Planeta Sadala que sofreu de amnésia e é conhecido por sua habilidade de aprender ataques especiais de outros guerreiros e por suas transformações, incluindo o Super Saiyajin. Recentemente, ele foi adicionado como um personagem jogável em Dragon Ball: Sparking! Zero.",
+    "descricao": "teste teste",
     "nomeJapones": "シャロット"
   },
   {
