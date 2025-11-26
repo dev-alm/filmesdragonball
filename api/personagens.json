@@ -490,9 +490,8 @@
     "name": "Goku Jr.",
     "image": "/assets/personagens/goku-jr.jpg",
     "flips": [
-      "/assets/personagens/flip/goku-jr/goku-jr-1.jpg",
-      "/assets/personagens/flip/goku-jr/goku-jr-2.jpg",
-      "/assets/personagens/flip/goku-jr/goku-jr-3.jpg"
+      "/assets/personagens/flip/goku-jr/gokujr-1.jpg",
+      "/assets/personagens/flip/goku-jr/gokujr-2.jpg"
     ],
     "race": "Híbrido Saiyajin-Humano",
     "transform": "ssj",
@@ -505,9 +504,8 @@
     "name": "Vegeta Jr.",
     "image": "/assets/personagens/vegeta-jr.jpg",
     "flips": [
-      "/assets/personagens/flip/vegeta-jr/vegeta-jr-1.jpg",
-      "/assets/personagens/flip/vegeta-jr/vegeta-jr-2.jpg",
-      "/assets/personagens/flip/vegeta-jr/vegeta-jr-3.jpg"
+      "/assets/personagens/flip/vegeta-jr/vegetajr-1.jpg",
+      "/assets/personagens/flip/vegeta-jr/vegetajr-2.jpg"
     ],
     "race": "Híbrido Saiyajin-Humano",
     "transform": "ssj",
