@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./assets/favicon/favion.png" type="image/png" />
+    <link rel="preload" href="/assets/botoes/1.png" as="image" />
+    <link rel="preload" href="/assets/botoes/2.png" as="image" />
     <title>Filmes</title>
     <script
       type="text/javascript"
@@ -12,7 +14,7 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
 
-  <body>
+  <body class="body-position">
     <video autoplay muted loop playsinline id="bgVideo">
       <source src="./assets/video/goku.mp4" type="video/mp4" />
     </video>
@@ -34,6 +36,18 @@
         </p>
       </div>
     </nav>
+
+    <div class="btn-itemName btn-container">
+      <div class="circle arcade-btn-background btn-02"></div>
+      <button
+        id="girar"
+        class="arcade-btn"
+        onclick="play('/media/sounds/som2.mp3')"
+      ></button>
+      
+        <p>EXTRA</p>
+      
+    </div>
 
     <main class="t-padrao filme">
       <div class="capa-filme">

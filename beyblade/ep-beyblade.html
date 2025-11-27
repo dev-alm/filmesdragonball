@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/favicon/favion.png" type="image/png" />
+    <title>Filme / Episódio</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <img id="bgVideo" src="../assets/video/fundo-site.png" alt="" />
+
+    <header class="t-padrao">
+      <ul class="menu">
+        <li><a href="../index.html">CARD GAME</a></li>
+        <li><a href="../filmes.html">FILMES</a></li>
+        <li><a href="../personagens.html">PERSONAGENS</a></li>
+      </ul>
+    </header>
+
+    <nav class="">
+      <div class="introducao-beyblade fadeInDown" data-anime="100">
+        <!-- título/descrição atualizados via JS -->
+        <h1 class="p-dragonballh1" id="titulo-ep">Carregando...</h1>
+        <p id="subtitulo-ep" class="subtitulo-ep">
+          Aguarde enquanto carregamos os detalhes do episódio.
+        </p>
+      </div>
+    </nav>
+
+    <main class="main-style">
+      <!-- filme/episódio - estrutura fiel ao seu template, com ids para JS -->
+      <div class="beyblade">
+        <div class="beyblade-item fadeInDown" data-anime="300">
+          <div class="beyblade-img">
+            <div class="iframe-capa">
+              <!-- capa/poster -->
+              <img id="poster-ep" src="" alt="Capa do episódio" />
+              <button id="play-btn" class="play-btn">▶</button>
+            </div>
+
+            <!-- iframe (ex.: embed Vimeo / YouTube) -->
+            <div id="embed-player"></div>
+          </div>
+        </div>
+
+        <div class="projetos-conteudo">
+          <h2 class="fadeInDown" data-anime="500" id="titulo-completo">
+            Título do Episódio
+          </h2>
+          <p
+            class="fadeInDown titulo-ep-beyblade"
+            data-anime="500"
+            id="titulo-jap"
+          >
+            Título japonês
+          </p>
+          <div class="projetos-descricao fadeInDown" data-anime="700">
+            <p>SINOPSE:</p>
+            <p id="sinopse-ep">
+              A sinopse do episódio será inserida aqui pelo script.
+            </p>
+          </div>
+          <div class="projetos-lista fadeInDown" data-anime="900">
+            <ul id="infos-ep">
+              <li>INFORMAÇÕES</li>
+              <li>
+                data
+                <span id="data-ep">—</span>
+              </li>
+              <li>duração<span id="duracao-ep">—</span></li>
+              <li>gênero<span id="genero-ep">—</span></li>
+              <li>classificação<span id="classif-ep">—</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-note">
+      <p>© 2025 DRK. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- seus scripts existentes (mantive a ordem) -->
+    <script src="../js/remover-capa-btn-play.js"></script>
+    <script src="../js/envio-formulario.js"></script>
+    <script src="../js/plugins/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
+
+    <!-- script dinâmico do Beyblade (coloque esse arquivo em /js/) -->
+    <script src="../js/beyblade-ep.js"></script>
+  </body>
+</html>

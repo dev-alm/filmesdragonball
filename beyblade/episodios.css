@@ -1,0 +1,207 @@
+.main-style {
+    border-bottom: 1px solid var(--borda-beyblade);
+}
+
+.titulo-ep-beyblade {
+    color: var(--cor-primaria-beyblade);
+}
+
+iframe {
+  width: 100%;
+  height: 440px;
+  border: 0;
+  background: #000;
+}
+
+.introducao-beyblade {
+  display: flex;
+  width: 1050px;
+  height: 92px;
+  margin: 0 auto;
+  gap: 40px;
+  border: solid 1px var(--borda-beyblade);
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.beyblade {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(20px, 4%, 40px);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* centraliza na tela */
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.beyblade-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beyblade-img {
+  position: relative;
+  width: 100%;
+  height: 62vh; /* mesma altura que o iframe */
+  border-radius: 10px;
+  overflow: hidden; /* evita que cantos do vídeo escapem */
+  border: 1px solid var(--cor-primaria-beyblade);
+  border-radius: 10px;
+}
+
+.beyblade-img video {
+  width: 100%; /* ocupa toda a largura do container */
+  height: 400px; /* ocupa toda a altura do container */
+  object-fit: cover; /* garante que o vídeo/poster preencha a div sem distorção */
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+.iframe-capa {
+  position: absolute;
+  inset: 0;
+  background-color: #000;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.iframe-capa img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.iframe-capa:hover img {
+  opacity: 0.5;
+}
+
+/* Botão play */
+.play-btn {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid var(--borda-beyblade);
+  color: var(--borda-beyblade);
+  font-size: 2rem; /* diminui se quiser */
+  border-radius: 12px; /* cantos arredondados */
+  width: 120px; /* largura maior que altura */
+  height: 70px; /* altura menor que largura */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 3;
+  transition: all 0.3s ease;
+}
+
+.play-btn:hover {
+  transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+.footer-note {
+  display: flex;
+  color: var(--cor-destaque);
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+}
+
+
+
+
+@media (max-width: 1045px) {
+  .subtitulo-ep {
+    display: none;
+  }
+  .introducao-beyblade {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 950px) {
+  .beyblade {
+    grid-template-columns: 1fr;
+    padding: 8% 6%;
+  }
+  .projetos-links a svg {
+    display: none;
+  }
+  li .beyblade-fixo:after {
+    display: none;
+  }
+  .projetos-links a:after {
+    margin-left: -4px;
+  }
+
+  .projetos-conteudo {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .beyblade-img {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .projetos-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .beyblade {
+    padding: 10% 8%;
+    gap: 30px;
+  }
+
+  .projetos-conteudo h2 {
+    font-size: 1.3rem;
+  }
+
+  .projetos-descricao {
+    font-size: 0.95rem;
+  }
+
+  .projetos-lista ul li {
+    font-size: 0.9rem;
+  }
+
+  .projetos-links a {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .introducao-beyblade .p-dragonballh1 {
+    font-size: 2rem;
+  }
+  .introducao-beyblade {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .beyblade {
+    padding: 12% 6%;
+  }
+
+  .projetos-conteudo h2 {
+    font-size: 1.1rem;
+  }
+
+  .projetos-descricao {
+    font-size: 0.8rem;
+  }
+}
