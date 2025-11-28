@@ -114,7 +114,7 @@ main {
 .projetos-img {
   position: relative;
   width: 100%;
-  height: 62vh; /* mesma altura que o iframe */
+  height: 400px; /* mesma altura que o iframe */
   border-radius: 10px;
   overflow: hidden; /* evita que cantos do vídeo escapem */
   border: 2px solid var(--cor-primaria);
