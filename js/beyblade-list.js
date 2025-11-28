@@ -11,7 +11,7 @@ fetch(JSON_PATH)
 
     episodios.forEach((ep) => {
       const div = document.createElement("div");
-      div.className = "capa-filme";
+      div.className = "capa-episodios";
 
       // link para a página única, passando id via query param
       div.innerHTML = `

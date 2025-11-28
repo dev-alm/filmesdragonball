@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="../assets/favicon/favion.png" type="image/png" />
     <title>Beyblade — Episódios</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style-beyblade.css" />
   </head>
 
   <body>
-    <video autoplay muted loop playsinline id="bgVideo">
-      <source src="../assets/video/goku.mp4" type="video/mp4" />
-    </video>
+    <img id="bgVideo" src="../assets/video/fundo-site.png" alt="" />
 
     <header class="t-padrao">
       <ul class="menu">
@@ -21,17 +19,17 @@
       </ul>
     </header>
 
-    <nav class="t-padrao projetos-introducao">
-      <div class="introducao-itens fadeInDown" data-anime="100">
-        <h1 class="p-dragonballh1">Beyblade — Temporada 1</h1>
-        <p>
-          Lista de episódios da 1ª temporada — clique na capa para ver o episódio.
+    <nav class="">
+      <div class="introducao-beyblade fadeInDown" data-anime="100">
+        <h1 class="p-dragonballh1">BEYBLADE</h1>
+        <p class="subtitulo-ep">
+          Lista de episódios da 1ª temporada.
         </p>
       </div>
     </nav>
 
     <!-- Aqui reaproveitamos o container .filme e .capa-filme -->
-    <main class="t-padrao filme" id="lista-episodios">
+    <main class="t-padrao episodios-layout main-style" id="lista-episodios">
       <!-- itens serão inseridos via JS -->
     </main>
 
@@ -40,5 +38,6 @@
     </footer>
 
     <script src="/js/beyblade-list.js"></script>
+    <script src="/js/plugins/simple-anime.js"></script>
   </body>
 </html>

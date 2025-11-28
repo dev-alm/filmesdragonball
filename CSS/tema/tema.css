@@ -22,6 +22,35 @@
   );
 }
 
+:root {
+  --cor-texto: #d4d4d4ce;
+  --cor-destaque: #00ff0d;
+  --cor-fundo-card: #111;
+  --cor-overlay: rgba(0, 0, 0, 0.5);
+  --cor-primaria-beyblade: #00eeff;
+  --cor-primaria-escura: rgb(0, 92, 95);
+  --fundo-1: #ffffff;
+  --fundo-2: #000000;
+  --texto: #ffffff;
+  --texto2: #000000;
+  --texto3: #C7C7C7;
+  --borda-beyblade: #00eeff;
+  --fundo-item: #1b1b1b;
+  --cor-subtitulo: rgba(0, 0, 0, 0.2);
+  --icone: #ffffff;
+  --degrade: radial-gradient(
+    circle,
+    rgba(21, 255, 0, 0.815),
+    rgba(132, 0, 255, 0.973)
+    
+  );
+  --cor-btn-01: rgb(0, 255, 0);
+  --cor-btn-02: #00edf5;
+  --cor-btn-03: #cc00f5;
+  --cor-btn-04: #f59f00;
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --cor-primaria: #f59f00;

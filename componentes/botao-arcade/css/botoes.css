@@ -99,3 +99,102 @@
   filter: none !important;
   background-color: transparent !important;
 }
+
+@media (max-width: 778px) {
+  .arcade-btn-background {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 61px;
+    height: 58px;
+  }
+  .arcade-btn {
+    top: -15px;
+    left: -11px;
+    width: 85px;
+    height: 85px;
+    background: url(/assets/botoes/1.png) no-repeat center/cover;
+  }
+  .btn-itemName p {
+    position: relative;
+    right: -1px;
+    top: 0px;
+  }
+}
+
+  @media (max-width: 681px) {
+  .arcade-btn-background {
+    position: relative;
+    top: -75px;
+    left: -22px;
+    width: 46px;
+    height: 44px;
+  }
+  .arcade-btn {
+    top: -85px;
+    left: -29px;
+    width: 64px;
+    height: 60px;
+    background: url(/assets/botoes/1.png) no-repeat center/cover;
+  }
+  .btn-itemName p {
+    position: relative;
+    right: 20px;
+    top: -78px;
+  }
+  
+}
+
+@media (max-width: 559px) {
+  .btn-itemName {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .arcade-btn-background {
+    position: relative;
+    top: 180px;
+    left: -25px;
+    width: 37px;
+    height: 34px;
+  }
+  .arcade-btn {
+    top: 172px;
+    left: -33px;
+    width: 54px;
+    height: 50px;
+    background: url(/assets/botoes/1.png) no-repeat center/cover;
+  }
+  .btn-itemName p {
+    position: relative;
+    right: 38px;
+    top: 186px;
+  }
+  
+}
+
+@media (max-width: 459px) {
+  .btn-itemName {
+    display: grid;
+  }
+  .arcade-btn-background {
+    position: relative;
+    top: 219px;
+    left: 5px;
+    width: 61px;
+    height: 58px;
+  }
+  .arcade-btn {
+    top: 205px;
+    left: -9px;
+    width: 89px;
+    height: 85px;
+    background: url(/assets/botoes/1.png) no-repeat center/cover;
+  }
+  .btn-itemName p {
+    position: relative;
+    right: -6px;
+    top: 215px;
+  }
+}
+

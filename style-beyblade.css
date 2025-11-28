@@ -49,10 +49,7 @@
 /*COOKIES*/
 @import url(./CSS/projetos/cookies.css);
 
-
-
-https://www.linkedin.com/in/gustavo-almeida-390359266/   target="_blank"
-
-https://www.instagram.com/gustavo_almeida3
-
-https://github.com/dev-alm?tab=repositories
+/*BEYBLADE*/
+@import url(./beyblade/episodios.css);
+@import url(./beyblade/tema-beyblade.css);
+@import url(./beyblade/episodios-layout.css);
