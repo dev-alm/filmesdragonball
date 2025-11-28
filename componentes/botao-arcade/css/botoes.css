@@ -23,17 +23,19 @@
 
 .btn-container {
   position: absolute;
-  right: 10%;
-  top: 10%; /* opcional: centraliza verticalmente */
+  right: 5%;
+  top: 20%; /* opcional: centraliza verticalmente */
   transform: translateY(-50%);
 }
 
 .btn-itemName {
   display: grid;
+  gap: 10px;
+  justify-items: center;
 }
 
 .arcade-btn-background {
-  position: absolute;
+  position: relative;
   top: 5px;
   left: 0;
   width: 94px;

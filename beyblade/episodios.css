@@ -85,7 +85,7 @@ iframe {
 }
 
 /* Botão play */
-.play-btn {
+.play-btn-beyblade {
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
   border: 2px solid var(--borda-beyblade);

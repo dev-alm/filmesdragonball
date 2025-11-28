@@ -352,15 +352,49 @@
     font-size: 1rem;
     line-height: 1.6rem;
   }
-
-  /* ajusta botões de seta */
+  .nome-personagem-new {
+    font-size: 2rem;
+  }
+  .info-personagem-new {
+    font-size: 0.9rem;
+  }
+  .personagem-descricao {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    text-align:center;
+    padding: 10px;
+    margin-top: -10px;
+  }
   .seta {
-    width: 45px;
-    height: 45px;
+    transform: translateY(-50%);
+    background: rgba(0, 255, 21, 0.651);
+    color: white;
+    z-index: 99;
+    display: grid;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+  }
+  .seta-esquerda {
+    left: 0px;
+  }
+  .seta.seta-esquerda img {
+    width: 20px;
+    height: 20px;
+  }
+  .seta-direita {
+    right: 0px;
+  }
+  .seta.seta-direita img {
+    width: 20px;
+    height: 20px;
+    top: 100px;
   }
 }
 
-@media (max-width: 700px) {
+
+
+@media (max-width: 701px) {
   .cards-centrais-new {
     display: grid;
     grid-template-columns: 45% 50%; /* primeira menor, segunda maior */
@@ -383,56 +417,119 @@
   }
 
   /* Card de informações (maior) */
-  .card-info {
-    width: 100%;
-    height: 600px;
-    max-width: none;
-    justify-self: start;
-  }
-
   .card-detalhe {
     border: 2px solid #00ff0d;
     border-radius: 10px;
+    padding: 0;
   }
-
+  .card-info {
+    width: 100%;
+    height: 600px;
+    justify-self: start;
+    padding: 10px;
+  }
   .nome-personagem-new {
     font-size: 2rem;
     text-align: center;
   }
-
   .info-personagem-new {
     font-size: 1rem;
-    line-height: 1.6rem;
+    line-height: 1.9rem;
   }
-
-  /* ajusta botões de seta */
-  .seta {
-    width: 45px;
-    height: 45px;
+  .personagem-descricao {
+    margin-top: 40px;
+    padding: 10px;
+    line-height: 1.5rem;
+  }
+   .seta {
+    transform: translateY(-50%);
+    background: rgba(0, 255, 21, 0.651);
+    color: white;
+    z-index: 99;
+    display: grid;
+    justify-content: center;
+  }
+  .seta-esquerda {
+    left: 0px;
+  }
+  .seta.seta-esquerda img {
+    width: 15px;
+    height: 15px;
+  }
+  .seta-direita {
+    right: 0px;
+  }
+  .seta.seta-direita img {
+    width: 15px;
+    height: 15px;
+    top: 100px;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 592px) {
   .cards-centrais-new {
     position: absolute;
     left: 20px;
   }
   .card-detalhe {
-    position: relative;
-    background-color: #000000;
-    border-radius: 10px;
-    padding: 0px;
-    color: #fff;
-    width: 170px;
-    height: 410px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
+    width: 200px;
+    height: 460px;
     border: 2px solid #00ff0d;
-    overflow: visible;
+  }
+  .card-info {
+    max-width: none;
+    justify-self: start;
+    padding: 10px;
+  }
+  
+  .nome-personagem-new {
+    font-size: 1.1rem;
+  }
+  .info-personagem-new {
+    font-size: 10px;
+  }
+  .personagem-descricao {
+    font-size: 0.675rem;
+    line-height: 1.1rem;
+    text-align:center;
+    padding: 10px;
+    margin-top: -15px;
+  }
+  .seta {
+    transform: translateY(-50%);
+    background: rgba(255, 102, 0, 0.61);
+    color: white;
+    z-index: 99;
+    display: grid;
+    justify-content: center;
+  }
+  .seta-esquerda {
+    left: -10px;
+  }
+  .seta.seta-esquerda img {
+    width: 15px;
+    height: 15px;
+  }
+  .seta-direita {
+    right: -10px;
+  }
+  .seta.seta-direita img {
+    width: 15px;
+    height: 15px;
+    top: 100px;
+  }
+}
+
+
+@media (max-width: 427px) {
+  .cards-centrais-new {
+    position: absolute;
+    left: 20px;
+  }
+  .card-detalhe {color: #fff;
+    width: 170px;
+    height: 455px;
+    border: 2px solid #00ff0d;
   }
   .card-info {
     max-width: none;
