@@ -9,7 +9,7 @@
     "genero": "Ação / Anime",
     "capa": "../assets/beyblade/capas/capa01.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141517880' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "",
     "classificacao": ""
   },
@@ -218,7 +218,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa16.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519857' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -231,7 +231,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa17.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519878' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -244,7 +244,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa18.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519903' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -257,7 +257,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa19.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519932' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -270,7 +270,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa20.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519952' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -283,7 +283,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa21.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519981' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -296,7 +296,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa22.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519062' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -309,7 +309,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa23.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519153' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -322,7 +322,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa24.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519185' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -335,7 +335,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa25.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519219' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -348,7 +348,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa26.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519240' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -361,7 +361,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa27.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519271' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -374,7 +374,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa28.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519298' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -387,7 +387,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa29.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519322' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -400,7 +400,7 @@
     "genero": "Ação / Aventura / Esportes",
     "capa": "../assets/beyblade/capas/capa30.png",
     "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-    "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+    "embed": "<iframe src='https://player.vimeo.com/video/1141519343' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
     "duracao": "23min",
     "classificacao": "Livre"
   },
@@ -413,7 +413,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa31.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519356' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -426,7 +426,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa32.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519369' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -439,7 +439,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa33.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519398' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -452,7 +452,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa34.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519417' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -465,7 +465,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa35.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519436' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -478,7 +478,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa36.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519455' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -491,7 +491,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa37.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519485' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -504,7 +504,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa38.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519506' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -517,7 +517,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa39.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519521' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -530,7 +530,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa40.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519546' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -543,7 +543,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa41.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519580' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -556,7 +556,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa42.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519606' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -569,7 +569,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa43.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519632' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -582,7 +582,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa44.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519645' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -595,7 +595,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa45.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519666' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -608,7 +608,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa46.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519687' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -621,7 +621,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa47.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519716' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -634,7 +634,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa48.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519746' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -647,7 +647,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa49.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519773' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -660,7 +660,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa50.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519806' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 },
@@ -673,7 +673,7 @@
   "genero": "Ação / Aventura / Esportes",
   "capa": "../assets/beyblade/capas/capa51.png",
   "capa_player": "../assets/beyblade/capas/capa-player/capa-player-01.jpg",
-  "embed": "<iframe src='https://player.vimeo.com/video/1141221406' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
+  "embed": "<iframe src='https://player.vimeo.com/video/1141519828' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>",
   "duracao": "23min",
   "classificacao": "Livre"
 }
