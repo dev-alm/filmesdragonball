@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/favicon/favion.png" type="image/png" />
-    <link rel="icon" href="./assets/favicon/favion.png" type="image/png" />
+    <link rel="icon" href="../assets/favicon/favion.png" type="image/png" />
     <title>Game Card</title>
 
     <link rel="stylesheet" href="../style.css" />
@@ -12,22 +11,20 @@
   </head>
 
   <body>
-    <video autoplay muted loop playsinline id="bgVideo">
-      <source src="../assets/video/goku.mp4" type="video/mp4" />
-    </video>
+    <img id="bgVideo" src="../assets/video/fundo-page-livro.jpeg" alt="" />
 
     <header class="t-padrao">
       <ul class="menu">
-        <li><a class="filmes-fixo" href="./index.html">GAME CARD</a></li>
-        <li><a href="./filmes.html">FILMES</a></li>
-        <!-- <li><a href="./projetos.html">FILMES</a></li> -->
-        <li><a href="./personagens.html">PERSONAGENS</a></li>
+        <li><a class="" href="../index.html">HOME</a></li>
       </ul>
     </header>
 
     <div class="book-container">
+      <img class="espiral" src="../assets/livro/espiral/espiral.png" alt="" />
+
       <div id="pageWrapper" class="page">
-        <!-- O conteúdo (img ou texto) será renderizado aqui pelo JS -->
+        
+        <div class="page-content"></div>
       </div>
 
       <div class="controls">
@@ -36,8 +33,12 @@
       </div>
     </div>
 
+    <footer class="footer-livro">
+      <p>© 2025 DRK. Todos os direitos reservados.</p>
+    </footer>
+
     <script src="../js/script.js"></script>
     <script src="./livro.js"></script>
-    <script src="../componentes/botao-arcade/javascript/animacoes.js"></script>
+    <script src="./conteudo-block.js"></script>
   </body>
 </html>

@@ -9,20 +9,30 @@
 .page {
   width: 100%;
   height: 600px;
+  margin-left: 30px;
   border-radius: 6px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   position: relative;
-  background: #fff;
+  background: var(--fundo-espiral-livro);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 10px;
   box-sizing: border-box;
-
   transform-style: preserve-3d;
   transform-origin: left center;
-  transition: transform .7s cubic-bezier(.55, .01, .31, 1); /* suave e realista */
+  transition: transform 0.7s cubic-bezier(0.55, 0.01, 0.31, 1); /* suave e realista */
+}
+
+.espiral {
+  position: absolute;
+  left: -45px;        /* ajuste essa distância conforme o seu layout */
+  top: 0px;
+  width: 80px;
+  height: 600px;       /* acompanha a altura da página */
+  pointer-events: none; /* não interfere no clique */
+  z-index: -1;        /* fica por cima */
 }
 
 /* quando ativa a animação */
@@ -59,4 +69,134 @@
   display: flex;
   gap: 10px;
   justify-content: center;
+}
+
+.controls button {
+  background: var(--cor-primaria-livro);
+}
+
+.controls button:hover {
+  background: var(--cor-primaria-hover);
+}
+
+.footer-livro {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  border-top: solid 1px var(--cor-primaria-livro);
+}
+
+/* =========================== */
+/* RESPONSIVIDADE GERAL       */
+/* =========================== */
+
+/* --------- Tablets grandes (≤ 1024px) --------- */
+@media (max-width: 1024px) {
+  .book-container {
+    width: 500px;
+  }
+
+  .page {
+    height: 520px;
+  }
+
+  .espiral {
+    width: 250px;
+    height: 520px;
+    left: -180px;
+  }
+}
+
+/* --------- Tablets médios e celulares grandes (≤ 768px) --------- */
+@media (max-width: 768px) {
+  .book-container {
+    width: 420px;
+  }
+
+  .page {
+    height: 480px;
+    margin-left: 20px;
+  }
+
+  .espiral {
+    width: 220px;
+    height: 480px;
+    left: -150px;
+  }
+
+  .chapter {
+    padding: 16px;
+  }
+
+  .chapter h2 {
+    font-size: 20px;
+  }
+}
+
+/* --------- Celulares comuns (≤ 480px) --------- */
+@media (max-width: 480px) {
+  .book-container {
+    width: 92%;
+    margin: 20px auto;
+  }
+
+  .page {
+    height: 420px;
+    margin-left: 10px;
+    padding: 8px;
+  }
+
+  .espiral {
+    width: 180px;
+    height: 420px;
+    left: -120px; /* traz mais para perto */
+  }
+
+  .chapter {
+    padding: 14px;
+  }
+
+  .chapter h2 {
+    font-size: 18px;
+  }
+
+  .controls {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .controls button {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* --------- Celulares pequenos (≤ 360px) --------- */
+@media (max-width: 360px) {
+  .book-container {
+    width: 95%;
+  }
+
+  .page {
+    height: 380px;
+  }
+
+  .espiral {
+    width: 160px;
+    height: 380px;
+    left: -100px;
+  }
+
+  .chapter {
+    padding: 10px;
+  }
+
+  .chapter h2 {
+    font-size: 16px;
+  }
 }

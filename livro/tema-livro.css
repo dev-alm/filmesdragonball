@@ -1,0 +1,46 @@
+:root {
+  --cor-texto-livro: #d4d4d4ce;
+  --cor-destaque-livro: #00ff0d;
+  --cor-primaria-livro: #8400ff;
+  --cor-primaria-hover: #6400c2;
+  --cor-primaria-escura-livro: rgb(0, 92, 95);
+  --fundo-1-livro: #ffffff;
+  --fundo-2-livro: #000000;
+  --fundo-espiral-livro: rgb(34, 34, 34);
+  --texto-livro: #ffffff;
+  --texto2-livro: #000000;
+  --texto3-livro: #C7C7C7;
+  --borda-livro: #00eeff;
+  --fundo-item-livro: #1b1b1b;
+  --cor-subtitulo-livro: rgba(0, 0, 0, 0.2);
+  --degrade: radial-gradient(
+    circle,
+    rgba(21, 255, 0, 0.815),
+    rgba(132, 0, 255, 0.973)
+    
+  );
+  --cor-btn-01: rgb(0, 255, 0);
+  --cor-btn-02: #00edf5;
+  --cor-btn-03: #cc00f5;
+  --cor-btn-04: #f59f00;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-primaria: #f59f00;
+    --cor-primaria-escura: #818f4c;
+    --fundo-1: #111111;
+    --fundo-2: rgba(0, 225, 255, 0.089);
+    --texto: #ffffff;
+    --texto2: #000000;
+    --texto3: #C7C7C7;
+    --cor-subtitulo: rgba(255, 255, 255, 0.2);
+    --icone: #ffffff;
+    --degrade: radial-gradient(
+      circle,
+      rgba(0, 42, 54, 0.815),
+      rgba(0, 16, 46, 0.973)
+    );
+  }
+}
