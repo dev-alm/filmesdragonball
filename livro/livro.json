@@ -1,0 +1,74 @@
+{
+  "paginas": [
+    {
+      "type": "image",
+      "src": "../assets/livro/capa-livro/capa-drakilium.png",
+      "alt": "Capa do livro"
+    },
+    {
+      "type": "chapter",
+      "title": "🐉 Capítulo I - A Era da Criação",
+      "content": [
+        "Dragões arcanos de poder insondável, guardiões de um equilíbrio tão vasto quanto os céus que pairavam sobre Drakilium. Ignus do Fogo, Calidus Ictu do Vento, Argentum da Terra, Perspicuus da Água, Radium do Raio, Solisdium da Luz e Tenebris da Escuridão — forças que vagavam por uma até então desconhecida Drakilium.",
+        "ㅤ",
+        "Nascidos de ovos que ninguém colocara, despertaram em um mundo já vazio de sua própria espécie.",
+        "ㅤ",
+        "E isso os perturbava mais do que qualquer escuridão.",
+        "ㅤ",
+        "Desde seus despertares, Drakilium já não era habitada por mais ninguém de sua espécie. Isso os intrigava profundamente. Como podiam, mesmo dotados de tamanha sabedoria espiritual e equilíbrio cósmico, não serem capazes de desvendar o enigma de sua própria terra natal?",
+        "ㅤ",
+        "Após despertarem de seus antigos ovos e reconhecerem uns aos outros como iguais — irmãos em essência, porém distintos em natureza — os sete dragões emergiram ao céu. Drakilium era vasto, intocado, um mundo pulsante de energia misteriosa. Movidos por curiosidade, responsabilidade e sede por significado, cada um partiu em busca de respostas sobre aquele mundo silencioso que, por algum motivo, os aguardava.",
+        "ㅤ",
+        "Durante eras incontáveis, os dragões exploraram montanhas que sussurravam segredos, desertos onde o tempo parecia congelado, e mares onde as estrelas se refletiam de forma estranha, como se o céu quisesse contar uma história esquecida.",
+        "ㅤ",
+        "Foi durante uma dessas jornadas que Solisdium, dragão da luz, encontrou algo que nenhum dos outros jamais sentiria.",
+        "ㅤ",
+        "Nas profundezas de uma fenda oceânica próxima ao hemisfério das marés quietas, ele avistou uma estrutura... não natural.",
+        "ㅤ",
+        "Era um monólito selado, envolto por uma energia que vibrava silenciosa — uma luz que não era sua. O espaço ao redor pulsava com uma força que nem mesmo sua essência solar podia compreender. Era como se o tempo ali respirasse... e vigiasse.",
+        "ㅤ",
+        "Solisdium tentou se aproximar, mas ao fazê-lo, sua própria luz recuou. Não havia mal ali, mas também não havia bem — apenas um poder neutro, antigo demais para ter nome.",
+        "ㅤ",
+        "Ele sentiu o chamado da precaução.",
+        "ㅤ",
+        "Sabia que aquilo precisava ser protegido... de todos, até mesmo dele próprio.",
+        "ㅤ",
+        "Ao retornar à superfície, voou até Perspicuus, o silencioso guardião das águas, aquele cuja sabedoria vinha do silêncio e da profundidade.",
+        "ㅤ",
+        "— Irmão... há um lugar que não pertence nem a nós, nem a este tempo. Um selo repousa sob as águas do teu reino. E eu... eu temo que ele jamais deva ser quebrado.",
+        "ㅤ",
+        "— E o que deseja de mim, irmão da luz? — respondeu Perspicuus, sua voz soando como o fundo do mar.",
+        "ㅤ",
+        "— Que o guarde. Que o proteja. Que nunca o revele. Só você pode fazer isso... porque é o único que eu confio além de mim mesmo.",
+        "ㅤ",
+        "E assim, o segredo foi selado. E o local, esquecido por todos... menos dois.",
+        "ㅤ",
+        "Mas enquanto uns encontravam o que deveria ser escondido, outros encontravam o que jamais deveria ser lido.",
+        "ㅤ",
+        "Durante sua exploração solitária pelo lado mais sombrio de Drakilium, onde a luz parecia evitar pousar, Tenebris sentiu algo diferente — como se sombras o chamassem por nome.",
+        "ㅤ",
+        "Guiado por uma curiosidade cada vez mais intensa, encontrou uma ravina oculta por véus de névoa permanente. Ali, entre colunas de pedra negra e cipós que pareciam se mover sozinhos, havia uma entrada... um templo ancestral, escondido da criação.",
+        "ㅤ",
+        "Dentro, estavam pergaminhos antigos, manuscritos em uma língua esquecida. A energia ali era densa, viva... e sedutora.",
+        "ㅤ",
+        "Tenebris deveria ter recuado. Mas não o fez.",
+        "ㅤ",
+        "Dia após dia, ele voltava ao templo. Lia mais. Aprendia mais. Absorvia mais e se corrompia cada vez mais.",
+        "ㅤ",
+        "As palavras dos pergaminhos não eram apenas texto — eram convites. Sementes plantadas em sua alma, regadas pela dúvida e pela ambição.",
+        "ㅤ",
+        "E foi assim que, lentamente, a escuridão verdadeira deixou de ser uma essência... e passou a ser uma escolha."
+      ]
+    },
+    {
+      "type": "chapter",
+      "title": "Capítulo 2 - A Jornada",
+      "content": "No dia seguinte, o herói partiu. Ele levou apenas um cajado e um pedaço de pão..."
+    },
+    {
+      "type": "chapter",
+      "title": "Capítulo 3 - O Encontro",
+      "content": "Ao atravessar a floresta, encontrou uma figura encapuzada que sussurrou segredos..."
+    }
+  ]
+}
