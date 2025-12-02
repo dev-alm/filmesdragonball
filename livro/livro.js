@@ -30,18 +30,24 @@ function renderPage(i) {
 
     // Se content for array de parágrafos ou string com \n\n
     if (Array.isArray(item.content)) {
-      item.content.forEach((pText) => {
-        const p = document.createElement("p");
-        p.textContent = pText;
-        cont.appendChild(p);
-      });
-    } else {
-      const paragraphs = String(item.content).split(/\n{2,}/); // quebra por duplas de \n
-      paragraphs.forEach((pText) => {
-        const p = document.createElement("p");
-        p.textContent = pText;
-        cont.appendChild(p);
-      });
+      item.content.forEach((block) => {
+  // Se for string -> parágrafo
+  if (typeof block === "string") {
+    const p = document.createElement("p");
+    p.textContent = block;
+    cont.appendChild(p);
+  }
+
+  // Se for imagem -> coloca a imagem no meio do texto
+  else if (typeof block === "object" && block.type === "image") {
+    const img = document.createElement("img");
+    img.src = block.src;
+    img.alt = block.alt || "Imagem";
+    img.className = "inline-image"; // se quiser estilizar via CSS
+    cont.appendChild(img);
+  }
+});
+
     }
 
     pageWrapper.appendChild(cont);
