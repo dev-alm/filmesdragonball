@@ -1,0 +1,200 @@
+.btn-home {
+  top: -60px;
+  right: 20px;
+}
+
+.btn-filmes {
+  top: 250px;
+  right: 35px;
+}
+
+.arcade-container {
+  display: flex;
+  gap: 20px; /* espaçamento entre os botões */
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: -100px;
+}
+
+.body-position {
+  position: relative;
+}
+
+.btn-container-livro {
+  position: absolute;
+  right: 5%;
+  top: 20%; /* opcional: centraliza verticalmente */
+  transform: translateY(-50%);
+}
+
+.btn-nameLivro {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+}
+
+.arcade-btn-background-livro {
+  position: relative;
+  top: 5px;
+  left: 0;
+  width: 94px;
+  height: 85px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.btn-l-01 {
+  background-color: var(--cor-btn-l-01);
+}
+.btn-l-02 {
+  background-color: var(--cor-btn-l-02);
+}
+.btn-l-03 {
+  background-color: var(--cor-btn-l-03);
+}
+.btn-l-04 {
+  background-color: var(--cor-btn-l-04);
+}
+
+.circle-livro {
+  border-radius: 50%;
+}
+
+.arcade-btn {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 135px;
+  height: 135px;
+  background: url(/assets/botoes/1.png) no-repeat center/cover;
+  border: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  appearance: none;
+  box-shadow: none;
+
+  /* transition: transform 0.12s ease; */
+}
+
+.arcade-btn-shadow {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  left: 150px;
+  top: 200px;
+  /* background: url(/assets/botoes/btn_shadow.png) no-repeat; */
+}
+
+.arcade-btn:active {
+  background-image: url(/assets/botoes/2.png);
+}
+
+.arcade-btn:hover,
+.arcade-btn:focus,
+.arcade-btn:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  background-color: transparent !important;
+}
+
+@media (max-width: 778px) {
+  .arcade-btn-background {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 61px;
+    height: 58px;
+  }
+  .arcade-btn {
+    top: -15px;
+    left: -11px;
+    width: 85px;
+    height: 85px;
+    background: url(/assets/botoes/1.png) no-repeat center/cover;
+  }
+  .btn-itemName p {
+    position: relative;
+    right: -1px;
+    top: 0px;
+  }
+}
+
+  @media (max-width: 681px) {
+  .arcade-btn-background {
+    position: relative;
+    top: -75px;
+    left: -22px;
+    width: 46px;
+    height: 44px;
+  }
+  .arcade-btn {
+    top: -85px;
+    left: -29px;
+    width: 64px;
+    height: 60px;
+    background: url(/assets/botoes/1.png) no-repeat center/cover;
+  }
+  .btn-itemName p {
+    position: relative;
+    right: 20px;
+    top: -78px;
+  }
+  
+}
+
+@media (max-width: 559px) {
+  .btn-itemName {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .arcade-btn-background {
+    position: relative;
+    top: 180px;
+    left: -25px;
+    width: 37px;
+    height: 34px;
+  }
+  .arcade-btn {
+    top: 172px;
+    left: -33px;
+    width: 54px;
+    height: 50px;
+    background: url(/assets/botoes/1.png) no-repeat center/cover;
+  }
+  .btn-itemName p {
+    position: relative;
+    right: 38px;
+    top: 186px;
+  }
+  
+}
+
+@media (max-width: 459px) {
+  .btn-itemName {
+    display: grid;
+  }
+  .arcade-btn-background {
+    position: relative;
+    top: 219px;
+    left: 5px;
+    width: 61px;
+    height: 58px;
+  }
+  .arcade-btn {
+    top: 205px;
+    left: -9px;
+    width: 89px;
+    height: 85px;
+    background: url(/assets/botoes/1.png) no-repeat center/cover;
+  }
+  .btn-itemName p {
+    position: relative;
+    right: -6px;
+    top: 215px;
+  }
+}
+

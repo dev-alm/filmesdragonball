@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="/assets/botoes/1.png" as="image" />
+    <link rel="preload" href="/assets/botoes/2.png" as="image" />
     <link rel="icon" href="../assets/favicon/favion.png" type="image/png" />
     <title>Game Card</title>
 
@@ -18,12 +20,17 @@
         <li><a class="" href="../index.html">HOME</a></li>
       </ul>
     </header>
+    <div class="btn-nameLivro btn-container-livro">
+      <div class="circle-livro arcade-btn-background-livro btn-l-03"></div>
+
+      <button id="trocarTema" class="arcade-btn"></button>
+      <p>EXTRA</p>
+    </div>
 
     <div class="book-container">
       <img class="espiral" src="../assets/livro/espiral/espiral.png" alt="" />
 
       <div id="pageWrapper" class="page">
-        
         <div class="page-content"></div>
       </div>
 
@@ -37,6 +44,7 @@
       <p>© 2025 DRK. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="./alterar-tema.js"></script>
     <script src="../js/script.js"></script>
     <script src="./livro.js"></script>
     <script src="./conteudo-block.js"></script>

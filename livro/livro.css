@@ -3,7 +3,7 @@
   margin: 30px auto;
   text-align: center;
   font-family: Arial, sans-serif;
-  perspective: 2000px; /* ESSENCIAL pro 3D */
+  perspective: 2000px; 
 }
 
 .page {
@@ -22,32 +22,32 @@
   box-sizing: border-box;
   transform-style: preserve-3d;
   transform-origin: left center;
-  transition: transform 0.7s cubic-bezier(0.55, 0.01, 0.31, 1); /* suave e realista */
+  transition: transform 0.7s cubic-bezier(0.55, 0.01, 0.31, 1);
 }
 
 .espiral {
   position: absolute;
-  left: -45px;        /* ajuste essa distância conforme o seu layout */
+  left: -45px;
   top: 0px;
   width: 80px;
-  height: 600px;       /* acompanha a altura da página */
-  pointer-events: none; /* não interfere no clique */
-  z-index: -1;        /* fica por cima */
+  height: 600px;
+  pointer-events: none;
+  z-index: -1;
 }
 
-/* quando ativa a animação */
+
 .page.flipping {
   transform: rotateY(-180deg);
 }
 
-/* imagem ocupa 100% */
+
 .page img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* texto */
+
 .chapter {
   text-align: left;
   width: 100%;
