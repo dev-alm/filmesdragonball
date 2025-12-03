@@ -74,6 +74,9 @@ li .filmes-fixo:after {
   li .filmes-fixo:after {
     display: none;
   }
+  .menu a:after {
+    display: none;
+  }
 
   li a {
     font-size: 0.7rem;

@@ -103,19 +103,6 @@
 }
 
 
-/* .inline-image {
-  width: 10px;
-  height: 50px;
-  margin: 112px auto;
-} */
-
-
-
-
-/* =========================== */
-/* RESPONSIVIDADE GERAL       */
-/* =========================== */
-
 /* --------- Tablets grandes (≤ 1024px) --------- */
 @media (max-width: 1024px) {
   .book-container {
@@ -127,9 +114,9 @@
   }
 
   .espiral {
-    width: 250px;
+    width: 50px;
     height: 520px;
-    left: -180px;
+    left: -10px;
   }
 }
 
@@ -145,9 +132,9 @@
   }
 
   .espiral {
-    width: 220px;
+    width: 50px;
     height: 480px;
-    left: -150px;
+    left: -20px;
   }
 
   .chapter {
@@ -168,14 +155,12 @@
 
   .page {
     height: 420px;
-    margin-left: 10px;
+    margin: 0 auto;
     padding: 8px;
   }
 
   .espiral {
-    width: 180px;
-    height: 420px;
-    left: -120px; /* traz mais para perto */
+    display: none;
   }
 
   .chapter {
