@@ -60,3 +60,71 @@
   align-items: center;
   border-top: solid 1px var(--cor-secundaria-livro);
 }
+
+.bglivro-green {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(8px) brightness(0.4);
+  background-image: url("../../assets/video/fundo-page-livro-green.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu-livro-green {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0 20px 0;
+  gap: 40px;
+  justify-content: center;
+  max-width: 1000px; /* ou qualquer outro valor */
+  margin: 0 auto; /* Centralizar no contêiner pai */
+}
+
+.menu-livro-green a {
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.menu-livro-green a:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0px;
+  border: solid 0px var(--texto2);
+  border-radius: 2px;
+  background-color: var(--texto);
+  margin-top: 4px;
+  transition: 0.3s;
+}
+
+.menu-livro-green a:hover:after {
+  width: 100%;
+}
+
+.menu-livro-green a {
+    color: var(--texto2);
+    background: var(--cor-secundaria-livro);
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+  }
+  .menu-livro-green a:after {
+    display: none;
+  }
+
+  @media (max-width: 480px) {
+     .controls-green {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .controls-green button {
+    width: 100%;
+    padding: 10px;
+  }
+  }

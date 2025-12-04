@@ -102,6 +102,21 @@
   object-fit: cover;
 }
 
+.bglivro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(8px) brightness(0.4);
+  background-image: url("../../assets/video/fundo-page-livro.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 /* --------- Tablets grandes (≤ 1024px) --------- */
 @media (max-width: 1024px) {
